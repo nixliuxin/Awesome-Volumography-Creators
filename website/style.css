@@ -708,11 +708,16 @@
         font-family: 'PxGroteskMono', monospace;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        transition: color 0.2s;
+        transition: color 0.2s, text-shadow 0.2s;
     }
 
     .filter-reset:hover {
         color: var(--color-text);
+    }
+
+    .filter-reset.active {
+        color: var(--color-accent);
+        text-shadow: 0 0 8px var(--color-accent-glow);
     }
 
     .sort-select {

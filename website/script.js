@@ -392,6 +392,13 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     /**
+     * Update CLEAR button state based on selected tags
+     */
+    const updateClearButtonState = () => {
+        resetBtn.classList.toggle('active', selectedTags.size > 0);
+    };
+
+    /**
      * Toggle tag filter - can be called from card tags or filter bar
      */
     const toggleTagFilter = (tag) => {
@@ -408,6 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
         
+        updateClearButtonState();
         renderGallery();
     };
 
@@ -422,6 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('#tag-filters .filter-btn').forEach(btn => {
             btn.classList.remove('active');
         });
+        updateClearButtonState();
         renderGallery();
     });
 
