@@ -1,0 +1,15 @@
+# Creator Assets — Full Auto-Detection
+#
+# Each creator has a folder named by their ID:
+#
+# creators/
+# └── {creator-id}/
+#     ├── profile.{ext}    # Avatar (auto-detected)
+#     ├── cover.{ext}      # Cover image (auto-detected)
+#     └── gallery/         # Portfolio images (auto-detected)
+#         └── *.{ext}      # Any filename, all auto-detected!
+#
+# Supported formats: jpg, jpeg, png, webp, gif
+#
+# 🎉 NO NEED to list images in JSON!
+# Just run `npm run manifest` to scan and generate the manifest.

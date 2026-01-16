@@ -1,0 +1,47 @@
+name: Generate Assets Manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'website/assets/creators/**'
+  pull_request:
+    paths:
+      - 'website/assets/creators/**'
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Generate manifest
+        run: node scripts/generate-manifest.js
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet website/data/assets-manifest.json 2>/dev/null; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit manifest
+        if: steps.changes.outputs.has_changes == 'true' && github.event_name == 'push'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add website/data/assets-manifest.json
+          git commit -m "chore: update assets manifest [skip ci]"
+          git push

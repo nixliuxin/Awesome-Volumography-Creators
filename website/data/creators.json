@@ -2,25 +2,38 @@
   {
     "id": "nix-liu-xin",
     "name": "Nix Liu Xin",
-    "specialty": "Gaussian Splatting",
-    "avatar": "https://creative.tech/path/to/avatar1.jpg",
-    "ct_link": "https://www.creative.tech/tags/volumography",
-    "tags": ["Gaussian Splatting", "4DGS"]
+    "title": "Gaussian Splatting",
+    "subtitle": "Founder of Play.Work Labs",
+    "location": "Shanghai / London",
+    "links": {
+      "ct": "https://www.creative.tech/tags/volumography",
+      "website": "https://nixliuxin.com",
+      "twitter": "https://twitter.com/nixliuxin"
+    },
+    "tags": ["4DGS", "Spatial Computing"]
   },
   {
     "id": "rubenfro",
     "name": "RubenFro",
-    "specialty": "Volumetric Art",
-    "avatar": "https://creative.tech/path/to/avatar2.jpg",
-    "ct_link": "https://www.creative.tech/tags/volumography",
-    "tags": ["Point Cloud", "Cinematic"]
+    "title": "Volumetric Art",
+    "subtitle": "",
+    "location": "Tokyo",
+    "links": {
+      "ct": "https://www.creative.tech/tags/volumography",
+      "website": "https://rubenfro.com"
+    },
+    "tags": ["Point Cloud", "VFX"]
   },
   {
     "id": "eddy-v",
     "name": "Eddy Vajarakitipongse",
-    "specialty": "LiDAR / Photogrammetry",
-    "avatar": "https://creative.tech/path/to/avatar3.jpg",
-    "ct_link": "https://www.creative.tech/tags/volumography",
+    "title": "LiDAR / Photogrammetry",
+    "subtitle": "",
+    "location": "Bangkok / LA",
+    "links": {
+      "ct": "https://www.creative.tech/tags/volumography",
+      "website": "https://eddyv.com"
+    },
     "tags": ["LiDAR", "Digital Art"]
   }
 ]

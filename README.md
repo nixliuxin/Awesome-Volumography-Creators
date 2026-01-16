@@ -40,11 +40,13 @@ This list is a portal to the pioneers of this vision. It is part of [Creative.Te
 
 ## 🚀 Contributing
 
-Contributions are welcome! If you know an artist who should be here:
+Contributions are welcome! See **[CONTRIBUTING.md](CONTRIBUTING.md)** for detailed instructions.
 
-1. Fork the repo.
-2. Add the creator to `README.md` and `website/data/creators.json`.
-3. Submit a Pull Request.
+**Quick steps:**
+1. Fork the repo
+2. Add your images to `website/assets/creators/{your-id}/`
+3. Add your entry to `website/data/creators.json`
+4. Submit a Pull Request
 
 ---
 

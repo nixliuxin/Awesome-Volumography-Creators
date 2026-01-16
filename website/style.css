@@ -1,127 +1,676 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   FONTS - Px Grotesk Family
+   ======================================== */
+@font-face {
+    font-family: 'PxGrotesk';
+    src: url('./font/Px Grotesk/PxGrotesk-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PxGrotesk';
+    src: url('./font/Px Grotesk/PxGrotesk-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PxGrotesk';
+    src: url('./font/Px Grotesk/PxGrotesk-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PxGroteskMono';
+    src: url('./font/Px Grotesk/PxGroteskMono-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ========================================
+   DESIGN TOKENS - Sci-Fi OS Theme
+   See: DESIGN.md for full specification
+   ======================================== */
 :root {
-    --bg-color: #0a0a0a;
-    --text-color: #f0f0f0;
-    --accent-color: #0070f3;
-    --card-bg: #1a1a1a;
-    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* Colors */
+    --color-bg: #000000;
+    --color-surface: #0a0a0a;
+    --color-surface-hover: #111111;
+    --color-border: #1a1a1a;
+    --color-border-hover: #2a2a2a;
+    --color-text: #ffffff;
+    --color-text-dim: #888888;
+    --color-text-muted: #444444;
+    --color-accent: #0052FF;
+    --color-accent-dim: rgba(0, 82, 255, 0.2);
+    
+    /* Spacing */
+    --spacing-unit: 8px;
+    --gap-grid: 1px;
+    --padding-card: 16px;
+    
+    /* Grid */
+    --columns: 6;
+    
+    /* No border radius - Sci-Fi OS style */
+    --radius: 0px;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* ========================================
+   BASE LAYER
+   ======================================== */
+@layer base {
+    html {
+        font-family: 'PxGrotesk', system-ui, sans-serif;
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        font-size: 15px;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    body {
+        min-height: 100vh;
+        /* Sci-Fi Grid Dot Background */
+        background-image: 
+            radial-gradient(circle, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        background-size: 24px 24px;
+        background-position: 0 0;
+    }
+
+    ::selection {
+        background: var(--color-accent);
+        color: white;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
 }
 
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: var(--font-sans);
-    line-height: 1.6;
+/* ========================================
+   COMPONENTS - Sci-Fi OS Style
+   ======================================== */
+@layer components {
+    /* Navigation Button */
+    .nav-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        font-size: 13px;
+        color: var(--color-text-dim);
+        transition: all 0.2s;
+    }
+
+    @media (max-width: 480px) {
+        .nav-btn {
+            padding: 8px 12px;
+            font-size: 12px;
+        }
+    }
+
+    .nav-btn:hover {
+        background: var(--color-surface-hover);
+        border-color: var(--color-border-hover);
+        color: var(--color-text);
+    }
+
+    /* ==========================================
+       HERO SECTION
+       ========================================== */
+    .hero-section {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    /* Technology tags in hero - subtle, not clickable */
+    .tech-tag {
+        font-size: 13px;
+        font-family: 'PxGroteskMono', monospace;
+        color: var(--color-accent);
+        letter-spacing: 0.02em;
+    }
+
+    .tech-tag::before {
+        content: '#';
+        opacity: 0.6;
+    }
+
+    @media (max-width: 480px) {
+        .tech-tag {
+            font-size: 11px;
+        }
+    }
+
+    /* ==========================================
+       MAIN CONTAINER - Unified border alignment
+       ========================================== */
+    .main-container {
+        border: 1px solid var(--color-border);
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    /* ==========================================
+       GRID LAYOUT - Uniform 6 columns
+       ========================================== */
+    .creator-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: var(--gap-grid);
+        background: var(--color-border);
+        flex: 1;
+    }
+
+    @media (max-width: 1400px) {
+        .creator-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .creator-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .creator-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .creator-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* ==========================================
+       CREATOR CARD - Recursive Internal Layout
+       Nested grid structure inside each card
+       ========================================== */
+    .creator-card {
+        display: grid;
+        grid-template-rows: auto 1fr; /* Media fixed, info fills remaining */
+        background: var(--color-surface);
+        border-radius: var(--radius);
+        overflow: hidden;
+        transition: background 0.2s;
+    }
+
+    .creator-card:hover {
+        background: var(--color-surface-hover);
+    }
+
+    /* Card Media - Cover Image Area */
+    .card-media {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        background: #000;
+        overflow: hidden;
+    }
+
+    .card-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease, opacity 0.2s;
+    }
+
+    .creator-card:hover .card-media img {
+        transform: scale(1.02);
+    }
+
+    .card-media-placeholder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, #050505 0%, #0a0a0a 100%);
+        color: var(--color-text-muted);
+        font-size: 10px;
+        font-family: 'PxGroteskMono', monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+    }
+
+    /* Link Arrow */
+    .card-arrow {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 24px;
+        height: 24px;
+        background: var(--color-accent);
+        border-radius: var(--radius);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.2s;
+        color: white;
+        font-size: 12px;
+    }
+
+    .creator-card:hover .card-arrow {
+        opacity: 1;
+    }
+
+    /* ==========================================
+       Card Info Section - Recursive Layout
+       Uses nested grid for internal structure
+       ========================================== */
+    .card-info {
+        padding: var(--padding-card);
+        display: grid;
+        grid-template-columns: 48px 1fr;
+        grid-template-rows: auto auto auto auto 1fr auto; /* Last row (tags) always at bottom */
+        gap: 4px 14px;
+        border-top: 1px solid var(--color-border);
+        align-items: start;
+    }
+
+    @media (max-width: 480px) {
+        .card-info {
+            padding: 12px;
+            grid-template-columns: 40px 1fr;
+            gap: 4px 10px;
+        }
+    }
+
+    /* Avatar - Spans all rows */
+    .card-avatar {
+        grid-row: 1 / 4;
+        width: 48px;
+        height: 48px;
+        background: var(--color-border);
+        border-radius: var(--radius);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: start;
+    }
+
+    @media (max-width: 480px) {
+        .card-avatar {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .card-avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-avatar-placeholder {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--color-text-dim);
+        font-family: 'PxGrotesk', sans-serif;
+    }
+
+    /* Text Content - Row 1 */
+    .card-text {
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        min-width: 0;
+    }
+
+    .card-name {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.3;
+        color: var(--color-text);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    @media (max-width: 480px) {
+        .card-name {
+            font-size: 14px;
+        }
+    }
+
+    .card-specialty {
+        font-size: 14px;
+        line-height: 1.3;
+        color: var(--color-text-dim);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    @media (max-width: 480px) {
+        .card-specialty {
+            font-size: 12px;
+        }
+    }
+
+    /* Subtitle - Optional secondary title */
+    .card-subtitle {
+        grid-column: 2;
+        font-size: 12px;
+        font-family: 'PxGroteskMono', monospace;
+        color: var(--color-text-dim);
+        margin-top: 4px;
+    }
+
+    @media (max-width: 480px) {
+        .card-subtitle {
+            font-size: 11px;
+            margin-top: 2px;
+        }
+    }
+
+    /* Location */
+    .card-location {
+        grid-column: 2;
+        font-size: 13px;
+        font-family: 'PxGroteskMono', monospace;
+        color: var(--color-text-muted);
+        margin-top: 6px;
+    }
+
+    @media (max-width: 480px) {
+        .card-location {
+            font-size: 11px;
+            margin-top: 4px;
+        }
+    }
+
+    /* Links Container - Stack vertically */
+    .card-links {
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-top: 8px;
+    }
+
+    @media (max-width: 480px) {
+        .card-links {
+            gap: 4px;
+            margin-top: 6px;
+        }
+    }
+
+    /* Website Link */
+    .card-link {
+        font-size: 13px;
+        font-family: 'PxGroteskMono', monospace;
+        color: var(--color-accent);
+        transition: opacity 0.2s;
+    }
+
+    @media (max-width: 480px) {
+        .card-link {
+            font-size: 11px;
+        }
+    }
+
+    .card-link:hover {
+        opacity: 0.7;
+    }
+
+    /* Social Icons - Below website, more visible */
+    .card-social {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .social-icon {
+        font-size: 16px;
+        color: var(--color-text-dim);
+        transition: color 0.2s;
+        text-decoration: none;
+    }
+
+    .social-icon:hover {
+        color: var(--color-accent);
+    }
+
+    @media (max-width: 480px) {
+        .social-icon {
+            font-size: 14px;
+            gap: 10px;
+        }
+    }
+
+    /* Tags - Clickable, linked to filter */
+    .card-tags {
+        grid-column: 1 / -1;
+        grid-row: -1; /* Always last row */
+        align-self: end; /* Push to bottom */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding-top: 12px;
+        border-top: 1px solid var(--color-border);
+        margin-top: auto; /* Push to bottom of available space */
+    }
+
+    @media (max-width: 480px) {
+        .card-tags {
+            gap: 4px;
+            padding-top: 8px;
+        }
+    }
+
+    /* Tags - Clickable buttons that sync with filter */
+    .tag {
+        font-size: 10px;
+        padding: 4px 8px;
+        background: transparent;
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        color: var(--color-text-muted);
+        font-family: 'PxGroteskMono', monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        cursor: pointer;
+        transition: all 0.15s;
+    }
+
+    .tag:hover {
+        border-color: var(--color-border-hover);
+        color: var(--color-text-dim);
+    }
+
+    /* Active state when filter is selected */
+    .tag.active {
+        background: var(--color-accent);
+        border-color: var(--color-accent);
+        color: white;
+    }
+
+    @media (max-width: 480px) {
+        .tag {
+            font-size: 9px;
+            padding: 3px 6px;
+        }
+    }
+
+    /* ==========================================
+       FILTER BAR - Inside main-container
+       ========================================== */
+    .filter-bar {
+        border-bottom: 1px solid var(--color-border);
+        background: var(--color-surface);
+    }
+
+    .filter-content {
+        padding: 16px;
+    }
+
+    @media (max-width: 480px) {
+        .filter-content {
+            padding: 12px;
+        }
+    }
+
+    .filter-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 768px) {
+        .filter-row {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 12px;
+        }
+    }
+
+    .filter-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+    }
+
+    @media (max-width: 480px) {
+        .filter-group {
+            gap: 6px;
+        }
+    }
+
+    .filter-label {
+        font-size: 12px;
+        color: var(--color-text-muted);
+        font-family: 'PxGroteskMono', monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        margin-right: 8px;
+    }
+
+    .filter-btn {
+        font-size: 13px;
+        padding: 8px 12px;
+        background: transparent;
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        color: var(--color-text-dim);
+        cursor: pointer;
+        transition: all 0.2s;
+        font-family: 'PxGroteskMono', monospace;
+    }
+
+    @media (max-width: 480px) {
+        .filter-btn {
+            font-size: 11px;
+            padding: 6px 8px;
+        }
+    }
+
+    .filter-btn:hover {
+        border-color: var(--color-border-hover);
+        color: var(--color-text);
+    }
+
+    .filter-btn.active {
+        background: var(--color-accent);
+        border-color: var(--color-accent);
+        color: white;
+    }
+
+    .filter-reset {
+        font-size: 12px;
+        color: var(--color-text-muted);
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'PxGroteskMono', monospace;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+    }
+
+    .filter-reset:hover {
+        color: var(--color-text);
+    }
+
+    .sort-select {
+        font-size: 13px;
+        padding: 8px 12px;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        color: var(--color-text);
+        cursor: pointer;
+        font-family: 'PxGroteskMono', monospace;
+    }
+
+    .results-count {
+        font-size: 13px;
+        color: var(--color-text-muted);
+        margin-top: 12px;
+        font-family: 'PxGroteskMono', monospace;
+    }
+
+    .results-count span {
+        color: var(--color-accent);
+    }
+
+    /* ==========================================
+       FOOTER - Inside main-container
+       ========================================== */
+    .site-footer {
+        border-top: 1px solid var(--color-border);
+        background: var(--color-surface);
+    }
+
+    .footer-content {
+        padding: 24px 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+        .footer-content {
+            padding: 16px 12px;
+            font-size: 12px;
+            gap: 12px;
+        }
+    }
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-header {
-    padding: 4rem 0 2rem;
-    text-align: center;
-}
-
-h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    letter-spacing: -0.05em;
-}
-
-.manifesto-brief {
-    font-size: 1.1rem;
-    color: #888;
-    max-width: 600px;
-    margin: 0 auto 2rem;
-}
-
-.topics {
-    font-family: monospace;
-    color: var(--accent-color);
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
-    opacity: 0.8;
-}
-
-nav a {
-    color: var(--text-color);
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: 500;
-    opacity: 0.7;
-    transition: opacity 0.2s;
-}
-
-nav a:hover {
-    opacity: 1;
-}
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 4rem 0;
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .creator-card {
-    background: var(--card-bg);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-}
-
-.creator-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
-}
-
-.avatar-wrapper {
-    aspect-ratio: 1/1;
-    background: #222;
-    overflow: hidden;
-}
-
-.avatar-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.creator-info {
-    padding: 1.5rem;
-}
-
-.creator-name {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.creator-specialty {
-    font-size: 0.875rem;
-    color: #888;
-}
-
-footer {
-    padding: 4rem 0;
-    text-align: center;
-    font-size: 0.875rem;
-    color: #666;
-}
-
-footer a {
-    color: inherit;
+    animation: fadeIn 0.3s ease-out both;
 }
