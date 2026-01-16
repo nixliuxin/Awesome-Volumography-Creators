@@ -201,20 +201,39 @@
     }
 
     /* ==========================================
-       CREATOR CARD - Recursive Internal Layout
-       Nested grid structure inside each card
+       CREATOR CARD - Simplified Layout
        ========================================== */
     .creator-card {
         display: grid;
-        grid-template-rows: auto 1fr; /* Media fixed, info fills remaining */
+        grid-template-rows: auto 1fr;
         background: var(--color-surface);
         border-radius: var(--radius);
         overflow: hidden;
-        transition: background 0.2s;
+        transition: all 0.25s ease;
+        position: relative;
+    }
+
+    /* Retro sci-fi glow border on hover */
+    .creator-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border: 1px solid transparent;
+        pointer-events: none;
+        transition: all 0.25s ease;
+        z-index: 10;
     }
 
     .creator-card:hover {
         background: var(--color-surface-hover);
+    }
+
+    .creator-card:hover::before {
+        border-color: var(--color-accent);
+        box-shadow: 
+            inset 0 0 20px rgba(0, 82, 255, 0.15),
+            0 0 15px rgba(0, 82, 255, 0.2),
+            0 0 30px rgba(0, 82, 255, 0.1);
     }
 
     /* Card Media - Cover Image Area */
@@ -251,7 +270,29 @@
         letter-spacing: 0.2em;
     }
 
-    /* Link Arrow */
+    /* Avatar overlay on cover - only shows if has avatar */
+    .card-avatar-overlay {
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+        width: 40px;
+        height: 40px;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-avatar-overlay img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Link Arrow - Only shows when has CT link */
     .card-arrow {
         position: absolute;
         top: 8px;
@@ -274,78 +315,32 @@
     }
 
     /* ==========================================
-       Card Info Section - Recursive Layout
-       Uses nested grid for internal structure
+       Card Info Section - Clean vertical stack
        ========================================== */
     .card-info {
         padding: var(--padding-card);
-        display: grid;
-        grid-template-columns: 48px 1fr;
-        grid-template-rows: auto auto auto auto 1fr auto; /* Last row (tags) always at bottom */
-        gap: 4px 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
         border-top: 1px solid var(--color-border);
-        align-items: start;
+        min-height: 0;
     }
 
     @media (max-width: 480px) {
         .card-info {
             padding: 12px;
-            grid-template-columns: 40px 1fr;
-            gap: 4px 10px;
         }
     }
 
-    /* Avatar - Spans all rows */
-    .card-avatar {
-        grid-row: 1 / 4;
-        width: 48px;
-        height: 48px;
-        background: var(--color-border);
-        border-radius: var(--radius);
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-self: start;
-    }
-
-    @media (max-width: 480px) {
-        .card-avatar {
-            width: 40px;
-            height: 40px;
-        }
-    }
-
-    .card-avatar img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .card-avatar-placeholder {
-        font-size: 18px;
-        font-weight: 700;
-        color: var(--color-text-dim);
-        font-family: 'PxGrotesk', sans-serif;
-    }
-
-    /* Text Content - Row 1 */
-    .card-text {
-        grid-column: 2;
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-        min-width: 0;
-    }
-
+    /* Name - Bold, handles overflow */
     .card-name {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.3;
         color: var(--color-text);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        /* Allow wrapping for long names */
+        word-break: break-word;
+        hyphens: auto;
     }
 
     @media (max-width: 480px) {
@@ -354,13 +349,11 @@
         }
     }
 
+    /* Title/Specialty */
     .card-specialty {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.3;
         color: var(--color-text-dim);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 
     @media (max-width: 480px) {
@@ -369,57 +362,49 @@
         }
     }
 
-    /* Subtitle - Optional secondary title */
+    /* Subtitle - Optional */
     .card-subtitle {
-        grid-column: 2;
         font-size: 12px;
-        font-family: 'PxGroteskMono', monospace;
-        color: var(--color-text-dim);
-        margin-top: 4px;
+        color: var(--color-text-muted);
+        margin-top: 2px;
     }
 
     @media (max-width: 480px) {
         .card-subtitle {
             font-size: 11px;
-            margin-top: 2px;
         }
     }
 
     /* Location */
     .card-location {
-        grid-column: 2;
-        font-size: 13px;
-        font-family: 'PxGroteskMono', monospace;
+        font-size: 12px;
         color: var(--color-text-muted);
-        margin-top: 6px;
+        margin-top: 4px;
     }
 
     @media (max-width: 480px) {
         .card-location {
             font-size: 11px;
-            margin-top: 4px;
         }
     }
 
-    /* Links Container - Stack vertically */
+    /* Links Container */
     .card-links {
-        grid-column: 2;
         display: flex;
         flex-direction: column;
-        gap: 6px;
+        gap: 4px;
         margin-top: 8px;
     }
 
     @media (max-width: 480px) {
         .card-links {
-            gap: 4px;
             margin-top: 6px;
         }
     }
 
-    /* Website Link */
+    /* Website Link - ONLY links use mono font */
     .card-link {
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'PxGroteskMono', monospace;
         color: var(--color-accent);
         transition: opacity 0.2s;
@@ -435,15 +420,15 @@
         opacity: 0.7;
     }
 
-    /* Social Icons - Below website, more visible */
+    /* Social Icons */
     .card-social {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
     }
 
     .social-icon {
-        font-size: 16px;
+        font-size: 14px;
         color: var(--color-text-dim);
         transition: color 0.2s;
         text-decoration: none;
@@ -455,22 +440,18 @@
 
     @media (max-width: 480px) {
         .social-icon {
-            font-size: 14px;
-            gap: 10px;
+            font-size: 13px;
         }
     }
 
-    /* Tags - Clickable, linked to filter */
+    /* Tags - Always at bottom, clickable */
     .card-tags {
-        grid-column: 1 / -1;
-        grid-row: -1; /* Always last row */
-        align-self: end; /* Push to bottom */
         display: flex;
         flex-wrap: wrap;
         gap: 6px;
         padding-top: 12px;
         border-top: 1px solid var(--color-border);
-        margin-top: auto; /* Push to bottom of available space */
+        margin-top: auto; /* Push to bottom */
     }
 
     @media (max-width: 480px) {
@@ -480,7 +461,7 @@
         }
     }
 
-    /* Tags - Clickable buttons that sync with filter */
+    /* Tags - Clickable, sync with filter */
     .tag {
         font-size: 10px;
         padding: 4px 8px;
@@ -500,7 +481,6 @@
         color: var(--color-text-dim);
     }
 
-    /* Active state when filter is selected */
     .tag.active {
         background: var(--color-accent);
         border-color: var(--color-accent);

@@ -63,29 +63,32 @@ document.addEventListener('DOMContentLoaded', () => {
      * 
      * STRUCTURE:
      * ┌─────────────────────────┐
-     * │     [COVER IMAGE]   [↗] │  ← Clickable → CT Link
+     * │ [AVA]              [↗]  │  ← Avatar overlay (if exists), arrow (if CT link)
+     * │     [COVER/PREVIEW]     │
+     * │                         │
      * ├─────────────────────────┤
-     * │ [A]  Name               │  ← Clickable → CT Link
-     * │      Title              │
-     * │      Subtitle           │
-     * │      Location           │
-     * │      website.com  𝕏 ◎   │  ← Website clickable, social icons clickable
+     * │ Name                    │  ← Wraps if long
+     * │ Title                   │
+     * │ Subtitle                │
+     * │ Location                │
+     * │ website.com             │  ← Mono font, theme color
+     * │ 𝕏  ◎  ▶                 │  ← Social icons
      * ├─────────────────────────┤
-     * │ TAG · TAG · TAG         │  ← NOT clickable (just labels)
+     * │ [TAG] [TAG]             │  ← Clickable, syncs with filter
      * └─────────────────────────┘
      */
     const createCard = (creator, index) => {
         // Get links
         const ctLink = creator.links?.ct || null;
         const websiteLink = creator.links?.website || null;
-        const hasMainLink = !!ctLink;
+        const hasCTLink = !!ctLink;
 
-        // Create card container - entire card is clickable if CT link exists
-        const card = document.createElement(hasMainLink ? 'a' : 'div');
+        // Create card container
+        const card = document.createElement(hasCTLink ? 'a' : 'div');
         card.className = 'creator-card';
         card.style.animationDelay = `${index * 30}ms`;
         
-        if (hasMainLink) {
+        if (hasCTLink) {
             card.href = ctLink;
             card.target = '_blank';
             card.rel = 'noopener noreferrer';
@@ -96,11 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // ===== MEDIA SECTION (TOP) =====
         html += '<div class="card-media">';
-        // No cover images in current data, show placeholder
         html += '<div class="card-media-placeholder">No Preview</div>';
         
-        // Link arrow (shows on hover)
-        if (hasMainLink) {
+        // Avatar overlay - only show if creator has avatar (future)
+        // For now, show initial letter overlay
+        html += `<div class="card-avatar-overlay"><span style="font-size:16px;font-weight:700;color:#888">${getInitial(creator.name)}</span></div>`;
+        
+        // Link arrow - ONLY if CT link exists
+        if (hasCTLink) {
             html += '<span class="card-arrow">↗</span>';
         }
         html += '</div>';
@@ -108,20 +114,15 @@ document.addEventListener('DOMContentLoaded', () => {
         // ===== INFO SECTION (BOTTOM) =====
         html += '<div class="card-info">';
         
-        // Avatar (shows initial since no profile images)
-        html += '<div class="card-avatar">';
-        html += `<span class="card-avatar-placeholder">${getInitial(creator.name)}</span>`;
-        html += '</div>';
-        
-        // Name + Title
-        html += '<div class="card-text">';
+        // Name (handles long names with word-break)
         html += `<div class="card-name">${toTitleCase(creator.name)}</div>`;
+        
+        // Title
         if (creator.title) {
             html += `<div class="card-specialty">${toTitleCase(creator.title)}</div>`;
         }
-        html += '</div>';
         
-        // Subtitle (if exists)
+        // Subtitle
         if (creator.subtitle) {
             html += `<div class="card-subtitle">${creator.subtitle}</div>`;
         }
@@ -131,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `<div class="card-location">${creator.location}</div>`;
         }
         
-        // Links Row - Website + Social Icons
+        // Links
         const hasSocialLinks = creator.links && Object.keys(creator.links).some(k => 
             k !== 'ct' && k !== 'website' && socialIcons[k]
         );
@@ -139,12 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (websiteLink || hasSocialLinks) {
             html += '<div class="card-links">';
             
-            // Website link
             if (websiteLink) {
                 html += `<a href="${websiteLink}" target="_blank" rel="noopener" class="card-link" onclick="event.stopPropagation();">${formatUrl(websiteLink)}</a>`;
             }
             
-            // Social icons
             if (hasSocialLinks) {
                 html += '<div class="card-social">';
                 for (const [platform, url] of Object.entries(creator.links)) {
@@ -158,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html += '</div>';
         }
         
-        // Tags - Clickable, synced with filter
+        // Tags
         if (creator.tags?.length) {
             html += '<div class="card-tags">';
             creator.tags.forEach(tag => {
