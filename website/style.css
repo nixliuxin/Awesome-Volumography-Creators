@@ -583,31 +583,29 @@
 
     .filter-content {
         padding: 12px 16px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
     }
 
     @media (max-width: 480px) {
         .filter-content {
             padding: 10px 12px;
-            gap: 8px;
         }
     }
 
-    /* Row 1: Count + Sort */
-    .filter-row-top {
+    /* Single row layout */
+    .filter-row {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         gap: 16px;
     }
 
-    /* Row 2: Filter + Tags */
-    .filter-row-bottom {
+    /* Center section: Filter + Tags */
+    .filter-center {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
     }
 
     .filter-header {
@@ -626,6 +624,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
+        flex-shrink: 0;
     }
 
     .filter-label {
@@ -643,7 +642,6 @@
         overflow-x: auto;
         scrollbar-width: none;
         -ms-overflow-style: none;
-        padding-bottom: 2px;
         flex: 1;
         min-width: 0;
     }
@@ -652,11 +650,22 @@
         display: none;
     }
 
-    /* Desktop: allow tags to wrap */
-    @media (min-width: 768px) {
-        .tag-filters-scroll {
+    /* Mobile: stack vertically */
+    @media (max-width: 640px) {
+        .filter-row {
             flex-wrap: wrap;
-            overflow-x: visible;
+            gap: 10px;
+        }
+        .filter-center {
+            order: 3;
+            width: 100%;
+        }
+        .results-count {
+            order: 1;
+        }
+        .sort-group {
+            order: 2;
+            margin-left: auto;
         }
     }
 

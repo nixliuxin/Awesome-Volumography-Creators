@@ -53,11 +53,25 @@
             <!-- Filter Bar -->
             <section class="filter-bar">
                 <div class="filter-content">
-                    <!-- Row 1: Count + Sort -->
-                    <div class="filter-row-top">
+                    <div class="filter-row">
+                        <!-- Left: Count -->
                         <div class="results-count">
                             <span id="results-number">0</span> CREATORS
                         </div>
+                        
+                        <!-- Center: Filter + Tags (scrollable) -->
+                        <div class="filter-center">
+                            <div class="filter-header">
+                                <span class="filter-label">FILTER</span>
+                                <span class="filter-divider">/</span>
+                                <button id="reset-filters" class="filter-reset">CLEAR</button>
+                            </div>
+                            <div id="tag-filters" class="tag-filters-scroll">
+                                <!-- Tags injected by JS -->
+                            </div>
+                        </div>
+                        
+                        <!-- Right: Sort -->
                         <div class="sort-group">
                             <span class="filter-label">SORT</span>
                             <select id="sort-select" class="sort-select">
@@ -68,17 +82,6 @@
                                 <option value="name-desc">Z → A</option>
                                 <option value="random">Shuffle</option>
                             </select>
-                        </div>
-                    </div>
-                    <!-- Row 2: Filter label + Tags -->
-                    <div class="filter-row-bottom">
-                        <div class="filter-header">
-                            <span class="filter-label">FILTER</span>
-                            <span class="filter-divider">/</span>
-                            <button id="reset-filters" class="filter-reset">CLEAR</button>
-                        </div>
-                        <div id="tag-filters" class="tag-filters-scroll">
-                            <!-- Tags injected by JS -->
                         </div>
                     </div>
                 </div>
