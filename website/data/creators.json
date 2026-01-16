@@ -1,39 +1,166 @@
 [
   {
+    "id": "benjamin-bardou",
+    "name": "Benjamin Bardou",
+    "title": "Filmmaker, Visual Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS", "Point Cloud"],
+    "links": {
+      "ct": "",
+      "website": "https://benjaminbardou.com/",
+      "instagram": "https://www.instagram.com/benjaminbardou/"
+    }
+  },
+  {
+    "id": "chen-momo",
+    "name": "Chen Momo",
+    "title": "Photographer",
+    "subtitle": "陈墨墨",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "http://www.chenmomo.com/"
+    }
+  },
+  {
+    "id": "edmund-fraser",
+    "name": "Edmund Fraser",
+    "title": "Photographer, Director",
+    "subtitle": "",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "https://www.edmundfraser.co/",
+      "instagram": "https://www.instagram.com/edmundfraser/"
+    }
+  },
+  {
+    "id": "frankanlisa",
+    "name": "FrānkǎnLīsà",
+    "title": "Researcher",
+    "subtitle": "",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "https://www.frankanlisa.com",
+      "instagram": "https://www.instagram.com/frankanlisa/"
+    }
+  },
+  {
+    "id": "frederik-heyman",
+    "name": "Frederik Heyman",
+    "title": "Photographer, Artist",
+    "subtitle": "Digital Artist",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "https://frederikheyman.com/",
+      "instagram": "https://www.instagram.com/frederikheyman/"
+    }
+  },
+  {
+    "id": "keijiro-takahashi",
+    "name": "Keijiro Takahashi",
+    "title": "Software Engineer",
+    "subtitle": "",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "https://www.keijiro.tokyo/"
+    }
+  },
+  {
     "id": "nix-liu-xin",
     "name": "Nix Liu Xin",
-    "title": "Gaussian Splatting",
+    "title": "Designer, Director",
     "subtitle": "Founder of Play.Work Labs",
     "location": "Shanghai / London",
+    "tags": ["4DGS", "Spatial Computing"],
     "links": {
-      "ct": "https://www.creative.tech/tags/volumography",
-      "website": "https://nixliuxin.com",
-      "twitter": "https://twitter.com/nixliuxin"
-    },
-    "tags": ["4DGS", "Spatial Computing"]
+      "ct": "",
+      "website": "https://liuxin.com",
+      "instagram": "https://www.instagram.com/nixliuxin",
+      "twitter": "https://x.com/nixliuxin",
+      "linkedin": "https://www.linkedin.com/in/nixliuxin/"
+    }
+  },
+  {
+    "id": "oddviz",
+    "name": "oddviz",
+    "title": "Art Collective",
+    "subtitle": "",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "https://www.oddviz.com/",
+      "instagram": "https://www.instagram.com/oddviz/"
+    }
+  },
+  {
+    "id": "oldmediaart",
+    "name": "OldMediaArt",
+    "title": "Game Studio",
+    "subtitle": "旧媒介",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "website": "https://space.bilibili.com/3546633788721807"
+    }
   },
   {
     "id": "rubenfro",
     "name": "RubenFro",
-    "title": "Volumetric Art",
+    "title": "Visual Effect Artist and Director",
     "subtitle": "",
     "location": "Tokyo",
+    "tags": ["Point Cloud", "VFX"],
     "links": {
-      "ct": "https://www.creative.tech/tags/volumography",
-      "website": "https://rubenfro.com"
-    },
-    "tags": ["Point Cloud", "VFX"]
+      "ct": "",
+      "website": "https://rubenfro.com/",
+      "instagram": "https://www.instagram.com/rubenfro/"
+    }
   },
   {
-    "id": "eddy-v",
-    "name": "Eddy Vajarakitipongse",
-    "title": "LiDAR / Photogrammetry",
+    "id": "shavonne-wong",
+    "name": "Shavonne Wong",
+    "title": "Photographer",
     "subtitle": "",
-    "location": "Bangkok / LA",
+    "location": "",
+    "tags": [],
     "links": {
-      "ct": "https://www.creative.tech/tags/volumography",
-      "website": "https://eddyv.com"
-    },
-    "tags": ["LiDAR", "Digital Art"]
+      "ct": "",
+      "website": "https://www.shavonnewong.art/"
+    }
+  },
+  {
+    "id": "yang-rui",
+    "name": "Yang Rui",
+    "title": "Artist",
+    "subtitle": "杨睿",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/y.angr/"
+    }
+  },
+  {
+    "id": "yu-hao",
+    "name": "Yu Hao",
+    "title": "3D Artist",
+    "subtitle": "尉浩",
+    "location": "",
+    "tags": [],
+    "links": {
+      "ct": ""
+    }
   }
 ]

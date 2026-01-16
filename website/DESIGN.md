@@ -181,9 +181,11 @@ background-size: 24px 24px;
 ## 9. Asset Placeholders
 
 When data is missing:
-- **No cover image**: Show `"No Preview"` text on dark gradient background
-- **No avatar**: Show **first letter of name** (e.g., "N" for "Nix Liu Xin", "S" for "Studio XYZ")
-- **Avatar load error**: Fall back to first letter
+- **No cover image**: 
+  1. First, try to use a random image from `gallery[]`
+  2. If no gallery, show `"No Preview"` placeholder
+- **No avatar**: Don't show avatar overlay (hidden by default)
+- **Has avatar**: Show avatar overlay in bottom-left of cover image
 
 ---
 

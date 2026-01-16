@@ -59,11 +59,25 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     /**
+     * Get cover image for a creator
+     * Priority: cover > random gallery image > null
+     */
+    const getCoverImage = (creator) => {
+        if (creator.cover) return creator.cover;
+        if (creator.gallery && creator.gallery.length > 0) {
+            // Random image from gallery
+            const randomIndex = Math.floor(Math.random() * creator.gallery.length);
+            return creator.gallery[randomIndex];
+        }
+        return null;
+    };
+
+    /**
      * Create a creator card element
      * 
      * STRUCTURE:
      * ┌─────────────────────────┐
-     * │ [AVA]              [↗]  │  ← Avatar overlay (if exists), arrow (if CT link)
+     * │ [AVA]              [↗]  │  ← Avatar overlay (only if has avatar), arrow (if CT link)
      * │     [COVER/PREVIEW]     │
      * │                         │
      * ├─────────────────────────┤
@@ -83,6 +97,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const websiteLink = creator.links?.website || null;
         const hasCTLink = !!ctLink;
 
+        // Get images
+        const coverImage = getCoverImage(creator);
+        const hasAvatar = !!creator.avatar;
+
         // Create card container
         const card = document.createElement(hasCTLink ? 'a' : 'div');
         card.className = 'creator-card';
@@ -99,11 +117,19 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // ===== MEDIA SECTION (TOP) =====
         html += '<div class="card-media">';
-        html += '<div class="card-media-placeholder">No Preview</div>';
         
-        // Avatar overlay - only show if creator has avatar (future)
-        // For now, show initial letter overlay
-        html += `<div class="card-avatar-overlay"><span style="font-size:16px;font-weight:700;color:#888">${getInitial(creator.name)}</span></div>`;
+        // Cover image or placeholder
+        if (coverImage) {
+            html += `<img src="${coverImage}" alt="${toTitleCase(creator.name)}" class="cover-image" loading="lazy">`;
+        } else {
+            html += '<div class="card-media-placeholder">No Preview</div>';
+        }
+        
+        // Avatar overlay - ONLY show if creator has avatar image
+        if (hasAvatar) {
+            html += `<div class="card-avatar-overlay"><img src="${creator.avatar}" alt="${toTitleCase(creator.name)}"></div>`;
+        }
+        // Note: If no avatar, we don't show the initial letter overlay anymore
         
         // Link arrow - ONLY if CT link exists
         if (hasCTLink) {
