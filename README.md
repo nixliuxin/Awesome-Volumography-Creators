@@ -1,6 +1,8 @@
 # Awesome Volumography Creators 🌌
 
-> **Volumography**: The art and science of capturing and reconstructing 3D/4D spaces and beings.
+> **Volumography**: A portmanteau of **Volumetric** + **Photography**. It serves as an umbrella term for the emerging field of 3D/4D scanning and reconstruction, including **Gaussian Splatting**, **NeRF**, **Photogrammetry**, and **LiDAR**.
+
+`#GaussianSplatting` `#Photogrammetry` `#NeRF` `#LiDAR` `#4DGS` `#VolumetricVideo`
 
 A curated list of artists, researchers, and pioneers pushing the boundaries of 3D/4D scanning, Gaussian Splatting, NeRFs, and volumetric storytelling.
 

@@ -38,10 +38,19 @@ h1 {
 }
 
 .manifesto-brief {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: #888;
     max-width: 600px;
     margin: 0 auto 2rem;
+}
+
+.topics {
+    font-family: monospace;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
 }
 
 nav a {
