@@ -1,0 +1,13 @@
+{
+  "name": "awesome-volumography-creators",
+  "version": "1.0.0",
+  "description": "A curated list of 3D/4D scanning artists",
+  "scripts": {
+    "dev": "vite website",
+    "build": "vite build website",
+    "preview": "vite preview website"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nix-liu-xin",
+    "name": "Nix Liu Xin",
+    "specialty": "Gaussian Splatting",
+    "avatar": "https://creative.tech/path/to/avatar1.jpg",
+    "ct_link": "https://creative.tech/creator/nix-liu-xin",
+    "tags": ["Gaussian Splatting", "4DGS"]
+  },
+  {
+    "id": "rubenfro",
+    "name": "RubenFro",
+    "specialty": "Volumetric Art",
+    "avatar": "https://creative.tech/path/to/avatar2.jpg",
+    "ct_link": "https://creative.tech/creator/rubenfro",
+    "tags": ["Point Cloud", "Cinematic"]
+  },
+  {
+    "id": "eddy-v",
+    "name": "Eddy Vajarakitipongse",
+    "specialty": "LiDAR / Photogrammetry",
+    "avatar": "https://creative.tech/path/to/avatar3.jpg",
+    "ct_link": "https://creative.tech/creator/eddy-v",
+    "tags": ["LiDAR", "Digital Art"]
+  }
+]
