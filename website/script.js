@@ -67,6 +67,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     /**
+     * Convert image path to WebP (for optimized builds)
+     */
+    const toWebP = (path) => {
+        if (!path) return path;
+        return path.replace(/\.(jpg|jpeg|png|gif)$/i, '.webp');
+    };
+
+    /**
      * Get asset paths for a creator from the manifest
      */
     const getAssetPaths = (creatorId) => {
@@ -74,9 +82,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const basePath = `assets/creators/${creatorId}`;
         
         return {
-            profile: assets.profile ? `${basePath}/${assets.profile}` : null,
-            cover: assets.cover ? `${basePath}/${assets.cover}` : null,
-            gallery: (assets.gallery || []).map(img => `${basePath}/gallery/${img}`)
+            profile: assets.profile ? toWebP(`${basePath}/${assets.profile}`) : null,
+            cover: assets.cover ? toWebP(`${basePath}/${assets.cover}`) : null,
+            gallery: (assets.gallery || []).map(img => toWebP(`${basePath}/gallery/${img}`))
         };
     };
 
@@ -144,14 +152,14 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Cover image or placeholder
         if (coverImage) {
-            html += `<img src="${coverImage}" alt="${toTitleCase(creator.name)}" class="cover-image" loading="lazy">`;
+            html += `<img src="${coverImage}" alt="${creator.name}" class="cover-image" loading="lazy">`;
         } else {
             html += '<div class="card-media-placeholder">No Preview</div>';
         }
         
         // Avatar overlay - ONLY show if creator has avatar image
         if (hasAvatar) {
-            html += `<div class="card-avatar-overlay"><img src="${assets.profile}" alt="${toTitleCase(creator.name)}"></div>`;
+            html += `<div class="card-avatar-overlay"><img src="${assets.profile}" alt="${creator.name}"></div>`;
         }
         // Note: If no avatar, we don't show anything (no initial letter)
         
@@ -169,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Name + Origin Name (if exists)
         html += '<div class="card-name">';
-        html += toTitleCase(creator.name);
+        html += creator.name;  // Preserve original case for proper nouns
         if (creator.name_origin) {
             html += ` <span class="card-origin-name">${creator.name_origin}</span>`;
         }
