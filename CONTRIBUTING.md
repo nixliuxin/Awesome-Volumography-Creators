@@ -144,6 +144,24 @@ website/assets/creators/jane-doe/
 
 ---
 
+## Opt-Out Policy
+
+This is a **celebratory curation** of artists and researchers pushing the boundaries of volumetric media. We deeply respect everyone's preferences regarding their online presence.
+
+**If you prefer not to be listed:**
+
+1. **GitHub Issue** (Recommended)  
+   [Open a removal request](https://github.com/nixliuxin/Awesome-Volumography-Creators/issues/new?title=Removal%20Request:%20[Your%20Name]&labels=removal) with the title "Removal Request: [Your Name]"
+
+2. **Direct Contact**  
+   Reach out via [Creative.Tech](https://creative.tech)
+
+**We will remove your entry within 48 hours, no questions asked.**
+
+> 💡 This list is non-commercial and purely for community knowledge-sharing. We add creators based on their publicly visible work in the volumetric/3D scanning space.
+
+---
+
 ## Questions?
 
 Open an issue or reach out via [Creative.Tech](https://creative.tech).
