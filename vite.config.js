@@ -10,13 +10,5 @@ export default defineConfig({
     rollupOptions: {
       input: 'website/index.html'
     }
-  },
-  plugins: [
-    {
-      name: 'copy-cname',
-      closeBundle() {
-        // CNAME will be copied via GitHub Actions or manual copy
-      }
-    }
-  ]
+  }
 });
