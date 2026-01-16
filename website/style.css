@@ -39,17 +39,20 @@
    See: DESIGN.md for full specification
    ======================================== */
 :root {
-    /* Colors - Near-black with subtle warmth */
+    /* Colors - Near-black with better contrast */
     --color-bg: #0a0a0b;
     --color-surface: #121214;
     --color-surface-hover: #1a1a1c;
-    --color-border: #222224;
-    --color-border-hover: #2a2a2c;
+    --color-border: #252528;
+    --color-border-hover: #333336;
     --color-text: #ffffff;
-    --color-text-dim: #888888;
-    --color-text-muted: #444444;
-    --color-accent: #0052FF;
-    --color-accent-dim: rgba(0, 82, 255, 0.2);
+    --color-text-secondary: #cccccc;
+    --color-text-dim: #999999;
+    --color-text-muted: #666666;
+    /* Single unified blue - vibrant blue */
+    --color-accent: #0055ff;
+    --color-accent-hover: #3377ff;
+    --color-accent-glow: rgba(0, 85, 255, 0.5);
     
     /* Spacing */
     --spacing-unit: 8px;
@@ -157,11 +160,18 @@
         font-family: 'PxGroteskMono', monospace;
         color: var(--color-accent);
         letter-spacing: 0.02em;
+        text-shadow: 0 0 8px var(--color-accent-glow);
+        transition: all 0.2s;
+    }
+
+    .tech-tag:hover {
+        color: var(--color-accent-hover);
+        text-shadow: 0 0 12px var(--color-accent-glow);
     }
 
     .tech-tag::before {
         content: '#';
-        opacity: 0.6;
+        opacity: 0.5;
     }
 
     @media (max-width: 480px) {
@@ -246,9 +256,9 @@
     .creator-card:hover::before {
         border-color: var(--color-accent);
         box-shadow: 
-            inset 0 0 20px rgba(0, 82, 255, 0.15),
-            0 0 15px rgba(0, 82, 255, 0.2),
-            0 0 30px rgba(0, 82, 255, 0.1);
+            inset 0 0 30px rgba(0, 85, 255, 0.1),
+            0 0 20px var(--color-accent-glow),
+            0 0 40px rgba(0, 85, 255, 0.15);
     }
 
     /* Card Media - Cover Image Area */
@@ -336,21 +346,46 @@
         padding: var(--padding-card);
         display: flex;
         flex-direction: column;
-        gap: 4px;
         border-top: 1px solid var(--color-border);
-        min-height: 0;
+        min-height: 200px;
+    }
+
+    /* Text group - name, title, subtitle - aligned to top */
+    .card-text-group {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    /* Meta group - location, links, socials - aligned to bottom */
+    .card-meta-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-top: auto;
+        padding-top: 12px;
+    }
+
+    @media (max-width: 768px) {
+        .card-info {
+            min-height: 180px;
+        }
     }
 
     @media (max-width: 480px) {
         .card-info {
             padding: 12px;
+            min-height: 160px;
+        }
+        .card-meta-group {
+            padding-top: 8px;
         }
     }
 
     /* Name - Bold, handles overflow */
     .card-name {
         font-weight: 700;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.3;
         color: var(--color-text);
         /* Allow wrapping for long names */
@@ -361,6 +396,7 @@
     .card-origin-name {
         font-weight: 400;
         color: var(--color-text-dim);
+        margin-left: 4px;
     }
 
     @media (max-width: 480px) {
@@ -372,8 +408,8 @@
     /* Title/Specialty */
     .card-specialty {
         font-size: 13px;
-        line-height: 1.3;
-        color: var(--color-text-dim);
+        line-height: 1.4;
+        color: var(--color-text-secondary);
     }
 
     @media (max-width: 480px) {
@@ -395,72 +431,90 @@
         }
     }
 
-    /* Location */
-    .card-location {
-        font-size: 12px;
-        color: var(--color-text-muted);
-        margin-top: 4px;
-    }
-
-    @media (max-width: 480px) {
-        .card-location {
-            font-size: 11px;
-        }
-    }
-
-    /* Links Container */
-    .card-links {
+    /* Links Row - website + social icons on same line */
+    .card-links-row {
         display: flex;
-        flex-direction: column;
-        gap: 4px;
-        margin-top: 8px;
+        align-items: center;
+        gap: 0;
+        font-size: 13px;
+        min-height: 20px;
     }
 
-    @media (max-width: 480px) {
-        .card-links {
-            margin-top: 6px;
-        }
+    .card-separator {
+        color: var(--color-text-muted);
+        margin: 0 6px;
     }
 
-    /* Website Link - ONLY links use mono font */
     .card-link {
-        font-size: 12px;
-        font-family: 'PxGroteskMono', monospace;
         color: var(--color-accent);
-        transition: opacity 0.2s;
-    }
-
-    @media (max-width: 480px) {
-        .card-link {
-            font-size: 11px;
-        }
+        transition: all 0.2s;
+        text-shadow: 0 0 8px var(--color-accent-glow);
     }
 
     .card-link:hover {
-        opacity: 0.7;
+        color: var(--color-accent-hover);
+        text-shadow: 0 0 12px var(--color-accent-glow);
+    }
+
+    /* Location - always takes space for alignment */
+    .card-location {
+        font-size: 13px;
+        color: var(--color-text-dim);
+        min-height: 18px;
+    }
+
+    /* Slash in location text should match separator */
+    .card-location-slash {
+        color: var(--color-text-muted);
+        margin: 0 2px;
+    }
+
+    @media (max-width: 480px) {
+        .card-links-row {
+            font-size: 12px;
+        }
+        .card-location {
+            font-size: 11px;
+        }
     }
 
     /* Social Icons */
     .card-social {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 6px;
     }
 
     .social-icon {
-        font-size: 14px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         color: var(--color-text-dim);
-        transition: color 0.2s;
+        transition: color 0.2s, transform 0.2s;
         text-decoration: none;
+        padding: 2px;
+    }
+
+    .social-icon svg {
+        width: 14px;
+        height: 14px;
+        fill: currentColor;
     }
 
     .social-icon:hover {
-        color: var(--color-accent);
+        color: var(--color-accent-hover);
+        transform: scale(1.15);
+        filter: drop-shadow(0 0 6px var(--color-accent-glow));
     }
 
     @media (max-width: 480px) {
-        .social-icon {
-            font-size: 13px;
+        .card-social {
+            gap: 4px;
+        }
+        
+        .social-icon svg {
+            width: 13px;
+            height: 13px;
         }
     }
 
@@ -484,11 +538,11 @@
     /* Tags - Clickable, sync with filter */
     .tag {
         font-size: 10px;
-        padding: 4px 8px;
+        padding: 5px 10px;
         background: transparent;
         border: 1px solid var(--color-border);
         border-radius: var(--radius);
-        color: var(--color-text-muted);
+        color: var(--color-text-dim);
         font-family: 'PxGroteskMono', monospace;
         text-transform: uppercase;
         letter-spacing: 0.05em;
@@ -498,13 +552,15 @@
 
     .tag:hover {
         border-color: var(--color-border-hover);
-        color: var(--color-text-dim);
+        color: var(--color-text);
+        background: var(--color-surface-hover);
     }
 
     .tag.active {
         background: var(--color-accent);
         border-color: var(--color-accent);
         color: white;
+        box-shadow: 0 0 10px var(--color-accent-glow);
     }
 
     @media (max-width: 480px) {
@@ -579,11 +635,11 @@
     }
 
     .filter-label {
-        font-size: 12px;
-        color: var(--color-text-muted);
+        font-size: 11px;
+        color: var(--color-text-dim);
         font-family: 'PxGroteskMono', monospace;
         text-transform: uppercase;
-        letter-spacing: 0.12em;
+        letter-spacing: 0.1em;
         margin-right: 8px;
     }
 
@@ -615,6 +671,7 @@
         background: var(--color-accent);
         border-color: var(--color-accent);
         color: white;
+        box-shadow: 0 0 12px var(--color-accent-glow);
     }
 
     .filter-reset {
@@ -645,13 +702,15 @@
 
     .results-count {
         font-size: 13px;
-        color: var(--color-text-muted);
+        color: var(--color-text-dim);
         font-family: 'PxGroteskMono', monospace;
         white-space: nowrap;
     }
 
     .results-count span {
         color: var(--color-accent);
+        font-weight: 700;
+        text-shadow: 0 0 10px var(--color-accent-glow);
     }
 
     /* ==========================================

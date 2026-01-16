@@ -1,14 +1,4 @@
 {
-  "OldMediaArt": {
-    "profile": null,
-    "cover": "cover.jpg",
-    "gallery": []
-  },
-  "RubenFro": {
-    "profile": null,
-    "cover": null,
-    "gallery": []
-  },
   "benjamin-bardou": {
     "profile": "profile.jpg",
     "cover": null,
@@ -93,7 +83,31 @@
   "oddviz": {
     "profile": null,
     "cover": null,
-    "gallery": []
+    "gallery": [
+      "Oddviz-Kreuzberg-Shedding-Single-channel-4K-Video-2019-515-scaled.jpg",
+      "image.png",
+      "napoli_4k_color.webp"
+    ]
+  },
+  "oldmediaart": {
+    "profile": null,
+    "cover": "cover.jpg",
+    "gallery": [
+      "ss_0d7176d658fe8768f5ff2f396dc499f0fc3566a1.1920x1080.jpg",
+      "ss_5664c7d9029508b55fd2630f201fc1da1df5dda3.1920x1080.jpg",
+      "ss_9bda204018c2544004063ac1333306907b774cd2.1920x1080.jpg",
+      "ss_aadc39362eebe1d73bebc7cb56a0cfd9e2c072b7.1920x1080.jpg"
+    ]
+  },
+  "rubenfro": {
+    "profile": null,
+    "cover": null,
+    "gallery": [
+      "130890794_2737163566548302_4873004461541834303_n.jpg",
+      "Screenshot-2023-05-29-alle-17.20.29.webp",
+      "image.png",
+      "wxsync-2022-11-8ed199eecff836cc71a5aeb265b59595-1-1024x434.jpeg"
+    ]
   },
   "shavonne-wong": {
     "profile": null,

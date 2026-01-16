@@ -20,6 +20,9 @@
   <a href="https://en.wikipedia.org/wiki/Lidar">
     <img src="https://img.shields.io/badge/LiDAR-222?style=for-the-badge" alt="LiDAR">
   </a>
+  <a href="https://en.wikipedia.org/wiki/Volumetric_video">
+    <img src="https://img.shields.io/badge/Volumetric_Video-222?style=for-the-badge" alt="Volumetric Video">
+  </a>
 </p>
 
 <h1 align="center">Awesome Volumography Creators</h1>
@@ -30,10 +33,6 @@
 
 <p align="center">
   AVC is curating a list of creators—artists, coders, and researchers pioneering this new medium from around the world.
-</p>
-
-<p align="center">
-  <code>#GaussianSplatting</code> <code>#Photogrammetry</code> <code>#NeRF</code> <code>#LiDAR</code> <code>#4DGS</code> <code>#VolumetricVideo</code>
 </p>
 
 <p align="center">
@@ -79,7 +78,7 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 - **[Keijiro Takahashi](https://www.keijiro.tokyo/)** — Software Engineer
 
 ### N
-- **[Nix Liu Xin](https://liuxin.com)** — Designer, Director · Silicon Valley / Shanghai
+- **[Nix Liu Xin](https://liuxin.com)** — Designer, Engineer, Experience Director · Silicon Valley / Shanghai
 
 ### O
 - **[oddviz](https://www.oddviz.com/)** — Art Collective
