@@ -742,6 +742,10 @@
         color: var(--color-accent);
         font-weight: 700;
         text-shadow: 0 0 10px var(--color-accent-glow);
+        display: inline-block;
+        min-width: 2ch;  /* Fixed width for 2 digits */
+        text-align: right;
+        font-variant-numeric: tabular-nums;  /* Equal-width digits */
     }
 
     /* ==========================================
