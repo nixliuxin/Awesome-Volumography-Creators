@@ -53,27 +53,29 @@
             <!-- Filter Bar -->
             <section class="filter-bar">
                 <div class="filter-content">
-                    <div class="filter-row">
+                    <!-- Row 1: Count + Sort -->
+                    <div class="filter-row-top">
                         <div class="results-count">
                             <span id="results-number">0</span> CREATORS
                         </div>
-                        <div class="filter-controls">
-                            <div class="filter-header">
-                                <span class="filter-label">FILTER</span>
-                                <span class="filter-divider">/</span>
-                                <button id="reset-filters" class="filter-reset">CLEAR</button>
-                            </div>
-                            <div class="sort-group">
-                                <span class="filter-label">SORT</span>
-                                <select id="sort-select" class="sort-select">
-                                    <option value="priority">Featured</option>
-                                    <option value="date-desc">Newest</option>
-                                    <option value="date-asc">Oldest</option>
-                                    <option value="name-asc">A → Z</option>
-                                    <option value="name-desc">Z → A</option>
-                                    <option value="random">Shuffle</option>
-                                </select>
-                            </div>
+                        <div class="sort-group">
+                            <span class="filter-label">SORT</span>
+                            <select id="sort-select" class="sort-select">
+                                <option value="priority">Featured</option>
+                                <option value="date-desc">Newest</option>
+                                <option value="date-asc">Oldest</option>
+                                <option value="name-asc">A → Z</option>
+                                <option value="name-desc">Z → A</option>
+                                <option value="random">Shuffle</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Row 2: Filter label + Tags -->
+                    <div class="filter-row-bottom">
+                        <div class="filter-header">
+                            <span class="filter-label">FILTER</span>
+                            <span class="filter-divider">/</span>
+                            <button id="reset-filters" class="filter-reset">CLEAR</button>
                         </div>
                         <div id="tag-filters" class="tag-filters-scroll">
                             <!-- Tags injected by JS -->

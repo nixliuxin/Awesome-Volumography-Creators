@@ -595,24 +595,26 @@
         }
     }
 
-    .filter-row {
+    /* Row 1: Count + Sort */
+    .filter-row-top {
         display: flex;
-        flex-wrap: wrap;
-        gap: 12px 20px;
         align-items: center;
         justify-content: space-between;
+        gap: 16px;
     }
 
-    .filter-controls {
+    /* Row 2: Filter + Tags */
+    .filter-row-bottom {
         display: flex;
-        gap: 16px;
         align-items: center;
+        gap: 12px;
     }
 
     .filter-header {
         display: flex;
         align-items: center;
         gap: 6px;
+        flex-shrink: 0;
     }
 
     .filter-divider {
@@ -642,10 +644,20 @@
         scrollbar-width: none;
         -ms-overflow-style: none;
         padding-bottom: 2px;
+        flex: 1;
+        min-width: 0;
     }
 
     .tag-filters-scroll::-webkit-scrollbar {
         display: none;
+    }
+
+    /* Desktop: allow tags to wrap */
+    @media (min-width: 768px) {
+        .tag-filters-scroll {
+            flex-wrap: wrap;
+            overflow-x: visible;
+        }
     }
 
     .filter-btn {
