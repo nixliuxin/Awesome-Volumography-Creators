@@ -2,12 +2,24 @@
   <a href="https://volumography.com">
     <img src="https://img.shields.io/badge/Volumography.com-0052FF?style=for-the-badge&logoColor=white" alt="Volumography.com">
   </a>
-  <br><br>
-  <img src="https://img.shields.io/badge/3DGS-333?style=flat-square" alt="3DGS">
-  <img src="https://img.shields.io/badge/4DGS-333?style=flat-square" alt="4DGS">
-  <img src="https://img.shields.io/badge/NeRF-333?style=flat-square" alt="NeRF">
-  <img src="https://img.shields.io/badge/Photogrammetry-333?style=flat-square" alt="Photogrammetry">
-  <img src="https://img.shields.io/badge/LiDAR-333?style=flat-square" alt="LiDAR">
+</p>
+
+<p align="center">
+  <a href="https://en.wikipedia.org/wiki/Gaussian_splatting">
+    <img src="https://img.shields.io/badge/3DGS-222?style=for-the-badge" alt="3DGS">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Gaussian_splatting#3D_temporal_Gaussian_splatting">
+    <img src="https://img.shields.io/badge/4DGS-222?style=for-the-badge" alt="4DGS">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Neural_radiance_field">
+    <img src="https://img.shields.io/badge/NeRF-222?style=for-the-badge" alt="NeRF">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Photogrammetry">
+    <img src="https://img.shields.io/badge/Photogrammetry-222?style=for-the-badge" alt="Photogrammetry">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Lidar">
+    <img src="https://img.shields.io/badge/LiDAR-222?style=for-the-badge" alt="LiDAR">
+  </a>
 </p>
 
 <h1 align="center">Awesome Volumography Creators</h1>
