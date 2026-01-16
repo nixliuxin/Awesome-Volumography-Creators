@@ -39,12 +39,12 @@
    See: DESIGN.md for full specification
    ======================================== */
 :root {
-    /* Colors */
-    --color-bg: #000000;
-    --color-surface: #0a0a0a;
-    --color-surface-hover: #111111;
-    --color-border: #1a1a1a;
-    --color-border-hover: #2a2a2a;
+    /* Colors - Near-black with subtle warmth */
+    --color-bg: #0a0a0b;
+    --color-surface: #121214;
+    --color-surface-hover: #1a1a1c;
+    --color-border: #222224;
+    --color-border-hover: #2a2a2c;
     --color-text: #ffffff;
     --color-text-dim: #888888;
     --color-text-muted: #444444;
@@ -85,6 +85,21 @@
             radial-gradient(circle, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
         background-size: 24px 24px;
         background-position: 0 0;
+    }
+
+    /* Film Grain Overlay - Fine grain */
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 9999;
+        opacity: 0.04;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        background-size: 256px 256px;
     }
 
     ::selection {
@@ -343,6 +358,11 @@
         hyphens: auto;
     }
 
+    .card-origin-name {
+        font-weight: 400;
+        color: var(--color-text-dim);
+    }
+
     @media (max-width: 480px) {
         .card-name {
             font-size: 14px;
@@ -500,45 +520,62 @@
     .filter-bar {
         border-bottom: 1px solid var(--color-border);
         background: var(--color-surface);
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 
     .filter-content {
-        padding: 16px;
+        padding: 10px 16px;
     }
 
     @media (max-width: 480px) {
         .filter-content {
-            padding: 12px;
+            padding: 8px 12px;
         }
     }
 
     .filter-row {
         display: flex;
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 12px 16px;
         align-items: center;
         justify-content: space-between;
     }
 
+    .filter-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        align-items: center;
+    }
+
     @media (max-width: 768px) {
+        .filter-row {
+            gap: 8px 12px;
+        }
+        .filter-controls {
+            gap: 8px 12px;
+        }
+    }
+
+    @media (max-width: 480px) {
         .filter-row {
             flex-direction: column;
             align-items: flex-start;
-            gap: 12px;
+            gap: 8px;
+        }
+        .filter-controls {
+            width: 100%;
+            justify-content: space-between;
         }
     }
 
     .filter-group {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
+        gap: 6px;
         align-items: center;
-    }
-
-    @media (max-width: 480px) {
-        .filter-group {
-            gap: 6px;
-        }
     }
 
     .filter-label {
@@ -609,8 +646,8 @@
     .results-count {
         font-size: 13px;
         color: var(--color-text-muted);
-        margin-top: 12px;
         font-family: 'PxGroteskMono', monospace;
+        white-space: nowrap;
     }
 
     .results-count span {
@@ -623,22 +660,28 @@
     .site-footer {
         border-top: 1px solid var(--color-border);
         background: var(--color-surface);
+        position: sticky;
+        bottom: 0;
+        z-index: 100;
     }
 
     .footer-content {
-        padding: 24px 16px;
+        padding: 16px;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 16px;
-        font-size: 14px;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        font-size: 13px;
     }
 
     @media (max-width: 480px) {
         .footer-content {
-            padding: 16px 12px;
-            font-size: 12px;
-            gap: 12px;
+            padding: 12px;
+            font-size: 11px;
+            gap: 6px 12px;
+            justify-content: center;
+            text-align: center;
         }
     }
 }

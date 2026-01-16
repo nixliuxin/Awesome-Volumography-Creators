@@ -17,15 +17,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultsNumber = document.getElementById('results-number');
 
     let allCreators = [];
+    let assetsManifest = {};
     let selectedTags = new Set();
     let currentSort = 'priority';
 
     /**
      * Convert string to Title Case
      */
+    // Words that should preserve their original case (acronyms, etc.)
+    const preserveCase = ['VFX', '3D', '4D', '3DGS', '4DGS', 'AI', 'AR', 'VR', 'XR', 'NeRF', 'LiDAR'];
+    
     const toTitleCase = (str) => {
         if (!str) return '';
         return str.replace(/\w\S*/g, (txt) => {
+            // Check if word should preserve its case
+            const upperTxt = txt.toUpperCase();
+            const preserved = preserveCase.find(p => p.toUpperCase() === upperTxt);
+            if (preserved) return preserved;
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     };
@@ -59,15 +67,30 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     /**
+     * Get asset paths for a creator from the manifest
+     */
+    const getAssetPaths = (creatorId) => {
+        const assets = assetsManifest[creatorId] || {};
+        const basePath = `assets/creators/${creatorId}`;
+        
+        return {
+            profile: assets.profile ? `${basePath}/${assets.profile}` : null,
+            cover: assets.cover ? `${basePath}/${assets.cover}` : null,
+            gallery: (assets.gallery || []).map(img => `${basePath}/gallery/${img}`)
+        };
+    };
+
+    /**
      * Get cover image for a creator
      * Priority: cover > random gallery image > null
      */
-    const getCoverImage = (creator) => {
-        if (creator.cover) return creator.cover;
-        if (creator.gallery && creator.gallery.length > 0) {
+    const getCoverImage = (creatorId) => {
+        const assets = getAssetPaths(creatorId);
+        if (assets.cover) return assets.cover;
+        if (assets.gallery && assets.gallery.length > 0) {
             // Random image from gallery
-            const randomIndex = Math.floor(Math.random() * creator.gallery.length);
-            return creator.gallery[randomIndex];
+            const randomIndex = Math.floor(Math.random() * assets.gallery.length);
+            return assets.gallery[randomIndex];
         }
         return null;
     };
@@ -97,9 +120,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const websiteLink = creator.links?.website || null;
         const hasCTLink = !!ctLink;
 
-        // Get images
-        const coverImage = getCoverImage(creator);
-        const hasAvatar = !!creator.avatar;
+        // Get images from assets manifest
+        const assets = getAssetPaths(creator.id);
+        const coverImage = getCoverImage(creator.id);
+        const hasAvatar = !!assets.profile;
 
         // Create card container
         const card = document.createElement(hasCTLink ? 'a' : 'div');
@@ -127,9 +151,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Avatar overlay - ONLY show if creator has avatar image
         if (hasAvatar) {
-            html += `<div class="card-avatar-overlay"><img src="${creator.avatar}" alt="${toTitleCase(creator.name)}"></div>`;
+            html += `<div class="card-avatar-overlay"><img src="${assets.profile}" alt="${toTitleCase(creator.name)}"></div>`;
         }
-        // Note: If no avatar, we don't show the initial letter overlay anymore
+        // Note: If no avatar, we don't show anything (no initial letter)
         
         // Link arrow - ONLY if CT link exists
         if (hasCTLink) {
@@ -140,15 +164,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // ===== INFO SECTION (BOTTOM) =====
         html += '<div class="card-info">';
         
-        // Name (handles long names with word-break)
-        html += `<div class="card-name">${toTitleCase(creator.name)}</div>`;
+        // Name + Origin Name (if exists)
+        html += '<div class="card-name">';
+        html += toTitleCase(creator.name);
+        if (creator.name_origin) {
+            html += ` <span class="card-origin-name">${creator.name_origin}</span>`;
+        }
+        html += '</div>';
         
         // Title
         if (creator.title) {
             html += `<div class="card-specialty">${toTitleCase(creator.title)}</div>`;
         }
         
-        // Subtitle
+        // Subtitle (below title)
         if (creator.subtitle) {
             html += `<div class="card-subtitle">${creator.subtitle}</div>`;
         }
@@ -183,10 +212,11 @@ document.addEventListener('DOMContentLoaded', () => {
             html += '</div>';
         }
         
-        // Tags
+        // Tags - sorted by global tag order
         if (creator.tags?.length) {
             html += '<div class="card-tags">';
-            creator.tags.forEach(tag => {
+            const sortedTags = sortTagsByOrder(creator.tags);
+            sortedTags.forEach(tag => {
                 const isActive = selectedTags.has(tag) ? 'active' : '';
                 html += `<button class="tag ${isActive}" data-tag="${tag}" onclick="event.stopPropagation(); event.preventDefault(); window.toggleTagFilter('${tag}')">${tag}</button>`;
             });
@@ -197,7 +227,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = html;
 
+        // Setup hover carousel if multiple images available
+        const allImages = [coverImage, ...assets.gallery].filter(Boolean);
+        // Remove duplicates
+        const uniqueImages = [...new Set(allImages)];
+        
+        if (uniqueImages.length > 1) {
+            setupHoverCarousel(card, uniqueImages);
+        }
+
         return card;
+    };
+
+    /**
+     * Setup hover carousel for card
+     * Cycles through images when hovering
+     */
+    const setupHoverCarousel = (card, images) => {
+        const imgElement = card.querySelector('.cover-image');
+        if (!imgElement || images.length < 2) return;
+
+        let intervalId = null;
+        let currentIndex = 0;
+        const originalSrc = imgElement.src;
+
+        card.addEventListener('mouseenter', () => {
+            currentIndex = 0;
+            intervalId = setInterval(() => {
+                currentIndex = (currentIndex + 1) % images.length;
+                imgElement.src = images[currentIndex];
+            }, 600); // Change image every 600ms
+        });
+
+        card.addEventListener('mouseleave', () => {
+            if (intervalId) {
+                clearInterval(intervalId);
+                intervalId = null;
+            }
+            imgElement.src = originalSrc;
+        });
     };
 
     /**
@@ -217,6 +285,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
             case 'name-desc':
                 filtered.sort((a, b) => b.name.localeCompare(a.name));
+                break;
+            case 'date-desc':
+                // Newest first
+                filtered.sort((a, b) => (b.addedDate || '').localeCompare(a.addedDate || ''));
+                break;
+            case 'date-asc':
+                // Oldest first
+                filtered.sort((a, b) => (a.addedDate || '').localeCompare(b.addedDate || ''));
                 break;
             case 'random':
                 filtered.sort(() => Math.random() - 0.5);
@@ -256,13 +332,29 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * Setup filter buttons
      */
+    // Global tag order (sorted by usage count, populated in setupFilters)
+    let tagOrder = [];
+
+    /**
+     * Setup filter buttons - sorted by usage count (most to least)
+     */
     const setupFilters = (data) => {
-        const tags = new Set();
-        data.forEach(c => c.tags?.forEach(t => tags.add(t)));
+        // Count tag usage
+        const tagCounts = {};
+        data.forEach(c => c.tags?.forEach(t => {
+            tagCounts[t] = (tagCounts[t] || 0) + 1;
+        }));
+        
+        // Sort tags by count (descending), then alphabetically
+        tagOrder = Object.keys(tagCounts).sort((a, b) => {
+            const countDiff = tagCounts[b] - tagCounts[a];
+            if (countDiff !== 0) return countDiff;
+            return a.localeCompare(b);
+        });
         
         tagFiltersContainer.innerHTML = '';
         
-        Array.from(tags).sort().forEach(tag => {
+        tagOrder.forEach(tag => {
             const btn = document.createElement('button');
             btn.className = 'filter-btn';
             btn.textContent = tag;
@@ -272,6 +364,21 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             
             tagFiltersContainer.appendChild(btn);
+        });
+    };
+
+    /**
+     * Sort creator's tags according to global tag order
+     */
+    const sortTagsByOrder = (tags) => {
+        if (!tags || !tagOrder.length) return tags || [];
+        return [...tags].sort((a, b) => {
+            const indexA = tagOrder.indexOf(a);
+            const indexB = tagOrder.indexOf(b);
+            // If not found in order, put at end
+            const posA = indexA === -1 ? Infinity : indexA;
+            const posB = indexB === -1 ? Infinity : indexB;
+            return posA - posB;
         });
     };
 
@@ -318,20 +425,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /**
-     * Load data
+     * Load data - creators.json and assets-manifest.json
      */
-    fetch('data/creators.json')
-        .then(res => {
-            if (!res.ok) throw new Error('Failed to load');
-            return res.json();
-        })
-        .then(data => {
-            allCreators = data;
-            setupFilters(data);
+    Promise.all([
+        fetch('data/creators.json').then(res => res.json()),
+        fetch('data/assets-manifest.json').then(res => res.json())
+    ])
+        .then(([creators, manifest]) => {
+            allCreators = creators;
+            assetsManifest = manifest;
+            setupFilters(creators);
             renderGallery();
         })
         .catch(err => {
-            console.error('Error loading creators:', err);
+            console.error('Error loading data:', err);
             gallery.innerHTML = `
                 <div class="col-span-full text-center py-20 bg-[#0a0a0a]">
                     <p class="text-red-400 text-sm">Failed To Load Creator Data</p>

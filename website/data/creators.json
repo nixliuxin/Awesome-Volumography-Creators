@@ -2,10 +2,12 @@
   {
     "id": "benjamin-bardou",
     "name": "Benjamin Bardou",
+    "name_origin": "",
     "title": "Filmmaker, Visual Artist",
     "subtitle": "",
     "location": "",
     "tags": ["3DGS", "Point Cloud"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://benjaminbardou.com/",
@@ -15,10 +17,12 @@
   {
     "id": "chen-momo",
     "name": "Chen Momo",
+    "name_origin": "陈墨墨",
     "title": "Photographer",
-    "subtitle": "陈墨墨",
+    "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry", "3D Scan"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "http://www.chenmomo.com/"
@@ -27,10 +31,12 @@
   {
     "id": "edmund-fraser",
     "name": "Edmund Fraser",
+    "name_origin": "",
     "title": "Photographer, Director",
     "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["3DGS"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://www.edmundfraser.co/",
@@ -40,10 +46,12 @@
   {
     "id": "frankanlisa",
     "name": "FrānkǎnLīsà",
+    "name_origin": "",
     "title": "Researcher",
     "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry", "3DGS"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://www.frankanlisa.com",
@@ -53,10 +61,12 @@
   {
     "id": "frederik-heyman",
     "name": "Frederik Heyman",
+    "name_origin": "",
     "title": "Photographer, Artist",
-    "subtitle": "Digital Artist",
+    "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry", "3D Scan"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://frederikheyman.com/",
@@ -66,10 +76,12 @@
   {
     "id": "keijiro-takahashi",
     "name": "Keijiro Takahashi",
+    "name_origin": "",
     "title": "Software Engineer",
     "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Unity"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://www.keijiro.tokyo/"
@@ -78,10 +90,12 @@
   {
     "id": "nix-liu-xin",
     "name": "Nix Liu Xin",
+    "name_origin": "",
     "title": "Designer, Director",
-    "subtitle": "Founder of Play.Work Labs",
+    "subtitle": "",
     "location": "Shanghai / London",
-    "tags": ["4DGS", "Spatial Computing"],
+    "tags": ["Photogrammetry", "3DGS", "VFX", "4DGS"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://liuxin.com",
@@ -93,10 +107,12 @@
   {
     "id": "oddviz",
     "name": "oddviz",
+    "name_origin": "",
     "title": "Art Collective",
     "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://www.oddviz.com/",
@@ -106,10 +122,12 @@
   {
     "id": "oldmediaart",
     "name": "OldMediaArt",
+    "name_origin": "旧媒介",
     "title": "Game Studio",
-    "subtitle": "旧媒介",
+    "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://space.bilibili.com/3546633788721807"
@@ -118,10 +136,12 @@
   {
     "id": "rubenfro",
     "name": "RubenFro",
-    "title": "Visual Effect Artist and Director",
+    "name_origin": "",
+    "title": "VFX Artist, Director",
     "subtitle": "",
     "location": "Tokyo",
-    "tags": ["Point Cloud", "VFX"],
+    "tags": ["VFX", "Point Cloud"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://rubenfro.com/",
@@ -131,10 +151,12 @@
   {
     "id": "shavonne-wong",
     "name": "Shavonne Wong",
+    "name_origin": "",
     "title": "Photographer",
     "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry", "3D Scan"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://www.shavonnewong.art/"
@@ -143,10 +165,12 @@
   {
     "id": "yang-rui",
     "name": "Yang Rui",
+    "name_origin": "杨睿",
     "title": "Artist",
-    "subtitle": "杨睿",
+    "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["3D Scan"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "instagram": "https://www.instagram.com/y.angr/"
@@ -155,10 +179,12 @@
   {
     "id": "yu-hao",
     "name": "Yu Hao",
+    "name_origin": "尉浩",
     "title": "3D Artist",
-    "subtitle": "尉浩",
+    "subtitle": "",
     "location": "",
-    "tags": [],
+    "tags": ["Photogrammetry", "VFX", "Point Cloud"],
+    "addedDate": "2026-01-16",
     "links": {
       "ct": ""
     }

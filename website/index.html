@@ -25,7 +25,7 @@
             
             <!-- Curation Statement -->
             <p class="max-w-xl mx-auto mb-10 text-base md:text-lg text-[#aaa]">
-                AVC is curating a list of creators—artists, coders, researchers pioneering this new medium.
+                AVC is curating a list of creators—artists, coders, and researchers pioneering this new medium from around the world.
             </p>
             
             <!-- Technologies Included - No spaces in hashtags -->
@@ -54,25 +54,29 @@
             <section class="filter-bar">
                 <div class="filter-content">
                     <div class="filter-row">
-                        <div class="filter-group">
-                            <span class="filter-label">Filter</span>
-                            <div id="tag-filters" class="flex flex-wrap gap-1 md:gap-2">
-                                <!-- Tags injected by JS -->
-                            </div>
-                            <button id="reset-filters" class="filter-reset">Clear</button>
+                        <div class="results-count">
+                            <span id="results-number">0</span> CREATORS
                         </div>
-                        <div class="filter-group">
-                            <span class="filter-label">Sort</span>
+                        <div class="filter-controls">
+                            <div class="filter-group">
+                                <span class="filter-label">FILTER</span>
+                                <div id="tag-filters" class="flex flex-wrap gap-1 md:gap-2">
+                                    <!-- Tags injected by JS -->
+                                </div>
+                                <button id="reset-filters" class="filter-reset">CLEAR</button>
+                            </div>
+                            <div class="filter-group">
+                                <span class="filter-label">SORT</span>
                             <select id="sort-select" class="sort-select">
                                 <option value="priority">Featured</option>
+                                <option value="date-desc">Newest</option>
+                                <option value="date-asc">Oldest</option>
                                 <option value="name-asc">A → Z</option>
                                 <option value="name-desc">Z → A</option>
                                 <option value="random">Shuffle</option>
                             </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="results-count">
-                        <span id="results-number">0</span> Creators
                     </div>
                 </div>
             </section>
