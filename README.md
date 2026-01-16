@@ -28,13 +28,13 @@ This list is a portal to the pioneers of this vision. It is part of [Creative.Te
 ### 💎 Gaussian Splatting / NeRF Pioneers
 *Artists primarily using radiant field techniques.*
 
-- **[Nix Liu Xin](https://creative.tech/creator/nix-liu-xin)** - Founder of Play.Work Labs, exploring the intersection of play and volumetric space.
-- **[RubenFro](https://creative.tech/creator/rubenfro)** - Known for ethereal volumetric point clouds and cinematic 3D reconstructions.
+- **[Nix Liu Xin](https://www.creative.tech/tags/volumography)** - Founder of Play.Work Labs, exploring the intersection of play and volumetric space.
+- **[RubenFro](https://www.creative.tech/tags/volumography)** - Known for ethereal volumetric point clouds and cinematic 3D reconstructions.
 
 ### 🏛️ Photogrammetry & LiDAR Artists
 *Masters of traditional 3D scanning evolved.*
 
-- **[Eddy Vajarakitipongse](https://creative.tech/creator/eddy-v)** - Pushing the limits of LiDAR and photogrammetry in digital art.
+- **[Eddy Vajarakitipongse](https://www.creative.tech/tags/volumography)** - Pushing the limits of LiDAR and photogrammetry in digital art.
 
 ---
 
@@ -49,5 +49,5 @@ Contributions are welcome! If you know an artist who should be here:
 ---
 
 ## 🔗 Links
-- [Creative.Tech](https://creative.tech)
+- [Creative.Tech (Volumography)](https://www.creative.tech/tags/volumography)
 - [Awesome 3D Gaussian Splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
