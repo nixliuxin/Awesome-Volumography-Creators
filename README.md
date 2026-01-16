@@ -1,11 +1,17 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Volumography-The%20Next%20Medium-0052FF?style=for-the-badge&logoColor=white" alt="Volumography">
+  <a href="https://volumography.com">
+    <img src="https://img.shields.io/badge/Volumography.com-The%20Next%20Medium-0052FF?style=for-the-badge&logoColor=white" alt="Volumography.com">
+  </a>
 </p>
 
 <h1 align="center">Awesome Volumography Creators</h1>
 
 <p align="center">
-  <strong>Volumography</strong> (Volumetric + Photography) is the new paradigm for creative applications of 3D/4D scanning—the next universal medium after photography and cinema.
+  <strong>Volumography</strong> (a word coined by volumetric and photography) is the new paradigm for creative applications of 3D/4D scanning, the next universal medium after photography and cinema.
+</p>
+
+<p align="center">
+  AVC is curating a list of creators—artists, coders, and researchers pioneering this new medium from around the world.
 </p>
 
 <p align="center">
@@ -44,7 +50,7 @@ This list is a portal to the pioneers of this vision. Part of [Creative.Tech](ht
 - **[FrānkǎnLīsà](https://www.frankanlisa.com)** — Researcher
 - **[Frederik Heyman](https://frederikheyman.com/)** — Photographer, Artist
 - **[Keijiro Takahashi](https://www.keijiro.tokyo/)** — Software Engineer
-- **[Nix Liu Xin](https://liuxin.com)** — Designer, Director · Shanghai / London
+- **[Nix Liu Xin](https://liuxin.com)** 刘鑫 — Designer, Director · Silicon Valley / Shanghai
 - **[oddviz](https://www.oddviz.com/)** — Art Collective
 - **[OldMediaArt](https://space.bilibili.com/3546633788721807)** 旧媒介 — Game Studio
 - **[RubenFro](https://rubenfro.com/)** — VFX Artist, Director · Tokyo
