@@ -4,7 +4,8 @@
   "description": "A curated list of 3D/4D scanning artists",
   "scripts": {
     "dev": "npm run manifest && vite website",
-    "build": "npm run manifest && vite build website",
+    "build": "npm run manifest && vite build website && npm run copy-assets",
+    "copy-assets": "cp -r website/assets website/dist/ && cp -r website/data website/dist/",
     "preview": "vite preview website",
     "manifest": "node scripts/generate-manifest.js"
   },
