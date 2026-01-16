@@ -40,6 +40,13 @@ jobs:
           cp -r website/data website/dist/data
           cp -r website/assets website/dist/assets
 
+      - name: Debug - List dist contents
+        run: |
+          echo "=== Listing all files in dist/assets/creators ==="
+          find website/dist/assets/creators -type f | head -50
+          echo "=== Total file count ==="
+          find website/dist/assets/creators -type f | wc -l
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
