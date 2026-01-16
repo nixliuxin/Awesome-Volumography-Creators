@@ -598,21 +598,18 @@
         gap: 16px;
     }
 
-    /* Center section: Filter + Tags */
-    .filter-center {
+    /* Right: Controls group (Filter + Sort) */
+    .filter-controls {
         display: flex;
         align-items: center;
-        gap: 10px;
-        flex: 1;
-        min-width: 0;
-        overflow: hidden;
+        gap: 16px;
+        flex-shrink: 0;
     }
 
     .filter-header {
         display: flex;
         align-items: center;
         gap: 6px;
-        flex-shrink: 0;
     }
 
     .filter-divider {
@@ -624,7 +621,6 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        flex-shrink: 0;
     }
 
     .filter-label {
@@ -650,20 +646,21 @@
         display: none;
     }
 
-    /* Mobile: stack vertically */
+    /* Mobile: stack controls below */
     @media (max-width: 640px) {
         .filter-row {
             flex-wrap: wrap;
             gap: 10px;
         }
-        .filter-center {
+        .tag-filters-scroll {
             order: 3;
             width: 100%;
+            flex: none;
         }
         .results-count {
             order: 1;
         }
-        .sort-group {
+        .filter-controls {
             order: 2;
             margin-left: auto;
         }

@@ -59,29 +59,29 @@
                             <span id="results-number">0</span> CREATORS
                         </div>
                         
-                        <!-- Center: Filter + Tags (scrollable) -->
-                        <div class="filter-center">
+                        <!-- Center: Tags (scrollable) -->
+                        <div id="tag-filters" class="tag-filters-scroll">
+                            <!-- Tags injected by JS -->
+                        </div>
+                        
+                        <!-- Right: Controls group -->
+                        <div class="filter-controls">
                             <div class="filter-header">
                                 <span class="filter-label">FILTER</span>
                                 <span class="filter-divider">/</span>
                                 <button id="reset-filters" class="filter-reset">CLEAR</button>
                             </div>
-                            <div id="tag-filters" class="tag-filters-scroll">
-                                <!-- Tags injected by JS -->
+                            <div class="sort-group">
+                                <span class="filter-label">SORT</span>
+                                <select id="sort-select" class="sort-select">
+                                    <option value="priority">Featured</option>
+                                    <option value="date-desc">Newest</option>
+                                    <option value="date-asc">Oldest</option>
+                                    <option value="name-asc">A → Z</option>
+                                    <option value="name-desc">Z → A</option>
+                                    <option value="random">Shuffle</option>
+                                </select>
                             </div>
-                        </div>
-                        
-                        <!-- Right: Sort -->
-                        <div class="sort-group">
-                            <span class="filter-label">SORT</span>
-                            <select id="sort-select" class="sort-select">
-                                <option value="priority">Featured</option>
-                                <option value="date-desc">Newest</option>
-                                <option value="date-asc">Oldest</option>
-                                <option value="name-asc">A → Z</option>
-                                <option value="name-desc">Z → A</option>
-                                <option value="random">Shuffle</option>
-                            </select>
                         </div>
                     </div>
                 </div>
