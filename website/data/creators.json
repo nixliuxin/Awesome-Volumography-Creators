@@ -186,7 +186,36 @@
     "tags": ["Photogrammetry", "VFX", "Point Cloud"],
     "addedDate": "2026-01-16",
     "links": {
-      "ct": ""
+      "ct": "",
+      "website": "https://zunyuh.top/"
+    }
+  },
+  {
+    "id": "eddy-vajarakitipongse",
+    "name": "Eddy Vajarakitipongse",
+    "name_origin": "",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["GaussianSplatting", "3DGS"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://yaknowlike.com/"
+    }
+  },
+  {
+    "id": "daniel-esco",
+    "name": "Daniel Esco",
+    "name_origin": "",
+    "title": "Curator",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3D Scan", "Point Cloud"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/daniel.esco1/"
     }
   }
 ]

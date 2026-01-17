@@ -69,6 +69,7 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 
 ### E
 - **[Edmund Fraser](https://www.edmundfraser.co/)** — Photographer, Director
+- **[Eddy Vajarakitipongse](https://www.edmundfraser.co/)** — Photographer, Director
 
 ### F
 - **[FrānkǎnLīsà](https://www.frankanlisa.com)** — Researcher
@@ -91,8 +92,8 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 - **[Shavonne Wong](https://www.shavonnewong.art/)** — Photographer
 
 ### Y
-- **Yang Rui** 杨睿 — Artist
-- **Yu Hao** 尉浩 — 3D Artist
+- **[Yang Rui](https://www.instagram.com/y.angr/)** 杨睿 — Artist
+- **[Yu Hao](https://zunyuh.top/)** 尉浩 — 3D Artist
 
 ---
 

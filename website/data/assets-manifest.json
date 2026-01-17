@@ -1,7 +1,7 @@
 {
   "benjamin-bardou": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "cover.jpg",
     "gallery": [
       "Cleo Varga_000.jpg",
       "Magda Ellstern_000.jpg",
@@ -13,7 +13,7 @@
     ]
   },
   "chen-momo": {
-    "profile": null,
+    "profile": "profile.jpg",
     "cover": null,
     "gallery": [
       "1605691221321012.jpg",
@@ -23,8 +23,29 @@
       "1605691232782366.jpg"
     ]
   },
-  "edmund-fraser": {
+  "daniel-esco": {
     "profile": null,
+    "cover": null,
+    "gallery": [
+      "1.png",
+      "2.png",
+      "3.png"
+    ]
+  },
+  "eddy-vajarakitipongse": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "3.png",
+      "4.png",
+      "6.png",
+      "eddy-vajarakitipongse_1.png",
+      "eddy-vajarakitipongse_2.png",
+      "eddy-vajarakitipongse_7.jpg"
+    ]
+  },
+  "edmund-fraser": {
+    "profile": "profile.jpg",
     "cover": null,
     "gallery": [
       "edmundfraser_1708706237_3309188448525599690_21706799-0002.png",
@@ -35,8 +56,8 @@
     ]
   },
   "frankanlisa": {
-    "profile": null,
-    "cover": null,
+    "profile": "profile.png",
+    "cover": "cover.png",
     "gallery": [
       "463212535_897387632332582_6484618142486151508_n.jpg",
       "530816059_18095224177713480_7869919166942724525_n.jpg",
@@ -60,7 +81,7 @@
     ]
   },
   "keijiro-takahashi": {
-    "profile": null,
+    "profile": "profile.jpg",
     "cover": null,
     "gallery": [
       "5cafafbbeec271e9140ccfc9_Keijiro_hero.jpg",
@@ -68,7 +89,7 @@
     ]
   },
   "nix-liu-xin": {
-    "profile": null,
+    "profile": "profile.jpg",
     "cover": "cover.png",
     "gallery": [
       "Screenshot 2026-01-16 at 11.03.00 PM.png",
@@ -81,8 +102,8 @@
     ]
   },
   "oddviz": {
-    "profile": null,
-    "cover": null,
+    "profile": "profile.webp",
+    "cover": "cover.jpg",
     "gallery": [
       "Oddviz-Kreuzberg-Shedding-Single-channel-4K-Video-2019-515-scaled.jpg",
       "image.png",
@@ -91,7 +112,7 @@
   },
   "oldmediaart": {
     "profile": null,
-    "cover": "cover.jpg",
+    "cover": "cover.webp",
     "gallery": [
       "ss_0d7176d658fe8768f5ff2f396dc499f0fc3566a1.1920x1080.jpg",
       "ss_5664c7d9029508b55fd2630f201fc1da1df5dda3.1920x1080.jpg",
@@ -100,7 +121,7 @@
     ]
   },
   "rubenfro": {
-    "profile": null,
+    "profile": "profile.jpg",
     "cover": null,
     "gallery": [
       "130890794_2737163566548302_4873004461541834303_n.jpg",
@@ -110,15 +131,20 @@
     ]
   },
   "shavonne-wong": {
-    "profile": null,
+    "profile": "profile.webp",
     "cover": null,
     "gallery": [
       "image.png"
     ]
   },
-  "yang-rui": {
+  "wu-xinran": {
     "profile": null,
     "cover": null,
+    "gallery": []
+  },
+  "yang-rui": {
+    "profile": "profile.jpg",
+    "cover": "cover.jpg",
     "gallery": [
       "1731dafd8b4d4b109fda2676d00884da.jpeg",
       "44b9b3c95e104175a08e90b16932923b.jpeg",
