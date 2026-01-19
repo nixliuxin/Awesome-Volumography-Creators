@@ -1,4 +1,21 @@
 {
+  "andrew-r-mchugh": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_023001_557.png",
+      "ScreenShot_2026-01-19_023032_547.png",
+      "ScreenShot_2026-01-19_023121_150.png"
+    ]
+  },
+  "arata-fukoe": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_021703_432.png",
+      "ScreenShot_2026-01-19_021812_621.png"
+    ]
+  },
   "benjamin-bardou": {
     "profile": "profile.jpg",
     "cover": "cover.jpg",
@@ -10,6 +27,16 @@
       "Shared Memories_004.jpg",
       "Shared Memories_007.jpg",
       "benjaminbardou_1748592808_3643782259924319008_3060906433 - 0.92.jpg"
+    ]
+  },
+  "carlos-navarro": {
+    "profile": null,
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_121319_611.png",
+      "ScreenShot_2026-01-19_121331_140.png",
+      "ScreenShot_2026-01-19_121445_219.png",
+      "image.png"
     ]
   },
   "chen-momo": {
@@ -88,6 +115,23 @@
       "maxresdefault.jpg"
     ]
   },
+  "mediastorm": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_.png",
+      "ScreenShot_2026-01-19_122741_802.png",
+      "ScreenShot_2026-01-19_123006_016.png",
+      "ScreenShot_2026-01-19_123216_117.png",
+      "ScreenShot_2026-01-19_123225_688.png",
+      "ScreenShot_2026-01-19_123230_502.png",
+      "ScreenShot_2026-01-19_123300_701.png",
+      "ScreenShot_2026-01-19_123313_293.png",
+      "ScreenShot_2026-01-19_123334_733.png",
+      "ScreenShot_2026-01-19_123554_782.png",
+      "ScreenShot_2026-01-19_123614_246.png"
+    ]
+  },
   "nix-liu-xin": {
     "profile": "profile.jpg",
     "cover": "cover.png",
@@ -120,6 +164,27 @@
       "ss_aadc39362eebe1d73bebc7cb56a0cfd9e2c072b7.1920x1080.jpg"
     ]
   },
+  "overhead4d": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "502619595_18226792975290508_7320833194022881972_n.jpg",
+      "ScreenShot_2026-01-19_115045_328.png",
+      "ScreenShot_2026-01-19_115137_073.png",
+      "ScreenShot_2026-01-19_115152_327.png"
+    ]
+  },
+  "reconteur": {
+    "profile": null,
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_015156_112.png",
+      "ScreenShot_2026-01-19_015354_058.png",
+      "ScreenShot_2026-01-19_015454_593.png",
+      "ScreenShot_2026-01-19_015507_252.png",
+      "ScreenShot_2026-01-19_015516_073.png"
+    ]
+  },
   "rubenfro": {
     "profile": "profile.jpg",
     "cover": null,
@@ -137,10 +202,17 @@
       "image.png"
     ]
   },
-  "wu-xinran": {
-    "profile": null,
+  "xinran-wu": {
+    "profile": "profile.png",
     "cover": null,
-    "gallery": []
+    "gallery": [
+      "ScreenShot_2026-01-19_013058_561.png",
+      "ScreenShot_2026-01-19_013200_001.png",
+      "ScreenShot_2026-01-19_013209_143.png",
+      "ScreenShot_2026-01-19_013217_861.png",
+      "ScreenShot_2026-01-19_013232_694.png",
+      "ScreenShot_2026-01-19_013242_424.png"
+    ]
   },
   "yang-rui": {
     "profile": "profile.jpg",
@@ -163,6 +235,25 @@
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0012.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0013.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0014.png"
+    ]
+  },
+  "yulei-he": {
+    "profile": null,
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_120100_659.png",
+      "ScreenShot_2026-01-19_120228_366.png",
+      "ScreenShot_2026-01-19_120428_201.png"
+    ]
+  },
+  "yunlei-liu": {
+    "profile": "profile.png",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-19_122336_362.png",
+      "ScreenShot_2026-01-19_122429_156.png",
+      "ScreenShot_2026-01-19_122435_171.png",
+      "ScreenShot_2026-01-19_122638_495.png"
     ]
   }
 }

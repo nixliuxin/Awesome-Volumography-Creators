@@ -61,11 +61,18 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 
 ## Creators A-Z
 
+### A
+- **[Arata Fukoe](https://www.aratafukoe.com/)** — Filmmaker, Artist
+- **[Andrew R McHugh](https://andrewrmchugh.rocks/)** — Designer
+
 ### B
 - **[Benjamin Bardou](https://benjaminbardou.com/)** — Filmmaker, Visual Artist
 
 ### C
 - **[Chen Momo](http://www.chenmomo.com/)** 陈墨墨 — Photographer
+
+### D
+- **[Daniel Esco](https://www.instagram.com/daniel.esco1/)** — Curator
 
 ### E
 - **[Edmund Fraser](https://www.edmundfraser.co/)** — Photographer, Director
@@ -84,12 +91,17 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 ### O
 - **[oddviz](https://www.oddviz.com/)** — Art Collective
 - **[OldMediaArt](https://space.bilibili.com/3546633788721807)** 旧媒介 — Game Studio
+- **[Overhead4D](https://overhead4d.com/)** - IT Services and IT Consulting
 
 ### R
+- **[RACONTEUR](https://www.instagram.com/raconteur.studio/)** — A creative production & post-production atelier 
 - **[RubenFro](https://rubenfro.com/)** — VFX Artist, Director · Tokyo
 
 ### S
 - **[Shavonne Wong](https://www.shavonnewong.art/)** — Photographer
+
+### W
+- **[Xinran Wu](https://www.instagram.com/_mentha99/)** 吴欣然 — Artist
 
 ### Y
 - **[Yang Rui](https://www.instagram.com/y.angr/)** 杨睿 — Artist

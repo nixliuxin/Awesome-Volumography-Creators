@@ -1,5 +1,34 @@
 [
   {
+    "id": "arata-fukoe",
+    "name": "Arata Fukoe",
+    "name_origin": "",
+    "title": "Filmmaker, Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["4DGS", "3DGS", "AI"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://www.aratafukoe.com/",
+      "instagram": "https://www.instagram.com/arata_fukoe/?hl=en"
+    }
+  },
+  {
+    "id": "andrew-r-mchugh",
+    "name": "Andrew R McHugh",
+    "name_origin": "",
+    "title": "Designer",
+    "subtitle": "",
+    "location": "",
+    "tags": ["volumography"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://andrewrmchugh.rocks/"
+    }
+  },
+  {
     "id": "benjamin-bardou",
     "name": "Benjamin Bardou",
     "name_origin": "",
@@ -26,6 +55,21 @@
     "links": {
       "ct": "",
       "website": "http://www.chenmomo.com/"
+    }
+  },
+  {
+    "id": "carlos-navarro",
+    "name": "Carlos Navarro",
+    "name_origin": "",
+    "title": "Architectural Designer, Creative Technologist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS","AI","point cloud"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://carlosnavarro.io/",
+      "linkedin": "https://www.linkedin.com/in/carlosnavarro-cn/"
     }
   },
   {
@@ -134,6 +178,36 @@
     }
   },
   {
+    "id": "overhead4d",
+    "name": "Overhead4D",
+    "name_origin": "",
+    "title": "IT Services and IT Consulting",
+    "subtitle": "",
+    "location": "",
+    "tags": ["Photogrammetry", "3DGS"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://overhead4d.com/",
+      "instagram": "https://www.instagram.com/overhead4d",
+      "linkedin": "https://www.linkedin.com/company/overhead4d/"
+    }
+  },
+  {
+    "id": "reconteur",
+    "name": "RACONTEUR",
+    "name_origin": "",
+    "title": "A creative production & post-production atelier",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS", "Green screen compositing"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/raconteur.studio/"
+    }
+  },
+  {
     "id": "rubenfro",
     "name": "RubenFro",
     "name_origin": "",
@@ -163,13 +237,27 @@
     }
   },
   {
+    "id": "xinran-wu",
+    "name": "Xinran Wu",
+    "name_origin": "吴欣然",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3D Scan ", "Point Cloud"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/_mentha99/"
+    }
+  },
+  {
     "id": "yang-rui",
     "name": "Yang Rui",
     "name_origin": "杨睿",
     "title": "Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["3D Scan"],
+    "tags": ["3D Scan", "Point Cloud"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -188,6 +276,50 @@
     "links": {
       "ct": "",
       "website": "https://zunyuh.top/"
+    }
+  },
+  {
+    "id": "mediastorm",
+    "name": "MediaStorm",
+    "name_origin": "影视飓风",
+    "title": "Content Creators",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS", "4DGS","Photogrammetry","Point Cloud","VFX"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://www.ysjf.com/home",
+      "bilibili": "https://space.bilibili.com/946974",
+      "youtube": "https://www.youtube.com/@mediastorm6801"
+    }
+  },
+  {
+    "id": "yulei-he",
+    "name": "Yulei He",
+    "name_origin": "",
+    "title": "Independent developer",
+    "subtitle": "",
+    "location": "",
+    "tags": ["Photogrammetry", "3DGS","techniques"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://medium.com/@heyulei"
+    }
+  },
+  {
+    "id": "yunlei-liu",
+    "name": "Yunlei Liu",
+    "name_origin": "",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS","AI"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/yunlei.liu.1/?hl=en"
     }
   },
   {

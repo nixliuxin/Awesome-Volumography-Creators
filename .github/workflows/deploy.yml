@@ -31,21 +31,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Build (includes image optimization)
         run: npm run build
 
-      - name: Copy static assets
-        run: |
-          cp website/CNAME website/dist/CNAME
-          cp -r website/data website/dist/data
-          cp -r website/assets website/dist/assets
+      - name: Copy CNAME
+        run: cp website/CNAME website/dist/CNAME
 
-      - name: Debug - List dist contents
+      - name: Debug - List optimized images
         run: |
-          echo "=== Listing all files in dist/assets/creators ==="
-          find website/dist/assets/creators -type f | head -50
-          echo "=== Total file count ==="
-          find website/dist/assets/creators -type f | wc -l
+          echo "=== Optimized images in dist/assets/creators ==="
+          find website/dist/assets/creators -name "*.webp" | head -30
+          echo "=== Total WebP count ==="
+          find website/dist/assets/creators -name "*.webp" | wc -l
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

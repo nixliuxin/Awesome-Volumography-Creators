@@ -4,14 +4,16 @@
   "description": "A curated list of 3D/4D scanning artists",
   "scripts": {
     "dev": "npm run manifest && vite website",
-    "build": "npm run manifest && vite build website && npm run copy-assets",
-    "copy-assets": "cp -r website/assets website/dist/ && cp -r website/data website/dist/",
+    "build": "npm run manifest && vite build website && npm run optimize-images && npm run copy-data",
+    "copy-data": "cp -r website/data website/dist/",
+    "optimize-images": "node scripts/optimize-images.js",
     "preview": "vite preview website",
     "manifest": "node scripts/generate-manifest.js"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.0"
   }
