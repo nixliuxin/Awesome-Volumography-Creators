@@ -303,7 +303,7 @@
   },
   "yang-rui": {
     "profile": "profile.jpg",
-    "cover": "cover.jpg",
+    "cover": null,
     "gallery": [
       "1731dafd8b4d4b109fda2676d00884da.jpeg",
       "44b9b3c95e104175a08e90b16932923b.jpeg",
