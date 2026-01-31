@@ -29,6 +29,19 @@
       "benjaminbardou_1748592808_3643782259924319008_3060906433 - 0.92.jpg"
     ]
   },
+  "bertrand-de-becque": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "382230233_342975298078046_8931096103879189738_n.jpg",
+      "431963479_421415697223983_4703555010680171814_n.jpg",
+      "433504713_1555047532007801_2143700541253618301_n.jpg",
+      "469047849_1147538433383341_2442840267845523335_n.jpg",
+      "469212102_1347561896553588_3490195207918848555_n.jpg",
+      "522018492_18493764394065702_9102400796386565411_n.jpg",
+      "546471685_18502757539065702_4608263626603992398_n.jpg"
+    ]
+  },
   "carlos-navarro": {
     "profile": null,
     "cover": null,
@@ -50,6 +63,34 @@
       "1605691232782366.jpg"
     ]
   },
+  "clement-valla": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "400417033_1059379211727796_3066408882362489102_n.jpg",
+      "420397970_367455592562235_556310821490810546_n.jpg",
+      "421722964_742142427523912_3887744505912634982_n.jpg",
+      "482219889_18039481847528486_651241782638655959_n.jpg",
+      "514608378_18051939191528486_156255130166767752_n.jpg",
+      "516098330_18051939203528486_1950478592892304091_n.jpg"
+    ]
+  },
+  "coco-linux": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-30_233902_224.png",
+      "ScreenShot_2026-01-30_233917_466.png",
+      "ScreenShot_2026-01-30_233954_113.png",
+      "ScreenShot_2026-01-30_234004_830.png",
+      "ScreenShot_2026-01-30_234025_406.png",
+      "ScreenShot_2026-01-30_234054_496.png",
+      "ScreenShot_2026-01-30_234108_710.png",
+      "ScreenShot_2026-01-30_234158_717.png",
+      "ScreenShot_2026-01-30_234208_508.png",
+      "ScreenShot_2026-01-30_234235_208.png"
+    ]
+  },
   "daniel-esco": {
     "profile": null,
     "cover": null,
@@ -66,6 +107,10 @@
       "3.png",
       "4.png",
       "6.png",
+      "ScreenShot_2026-01-30_232203_499.png",
+      "ScreenShot_2026-01-30_232227_513.png",
+      "ScreenShot_2026-01-30_232247_967.png",
+      "ScreenShot_2026-01-30_234253_068.png",
       "eddy-vajarakitipongse_1.png",
       "eddy-vajarakitipongse_2.png",
       "eddy-vajarakitipongse_7.jpg"
@@ -107,6 +152,45 @@
       "https-hk.hypebeast.com-files-2019-10-BURBERRY-ARTHUR-Sneakers-5.jpg"
     ]
   },
+  "haifengzhijianyuan": {
+    "profile": "profile.webp",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-30_235021_871.png",
+      "ScreenShot_2026-01-30_235109_909.png",
+      "ScreenShot_2026-01-30_235121_381.png",
+      "ScreenShot_2026-01-30_235201_041.png",
+      "ScreenShot_2026-01-30_235208_472.png",
+      "ScreenShot_2026-01-30_235217_691.png",
+      "ScreenShot_2026-01-30_235303_952.png",
+      "ScreenShot_2026-01-30_235317_684.png"
+    ]
+  },
+  "hirokazu-yokohara": {
+    "profile": "profile.jpg",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-31_000932_261.png",
+      "ScreenShot_2026-01-31_001027_619.png",
+      "ScreenShot_2026-01-31_001034_933.png",
+      "ScreenShot_2026-01-31_001040_947.png",
+      "ScreenShot_2026-01-31_001053_623.png",
+      "ScreenShot_2026-01-31_001105_302.png",
+      "ScreenShot_2026-01-31_001118_300.png"
+    ]
+  },
+  "huidaoqijishan": {
+    "profile": "profile.png",
+    "cover": null,
+    "gallery": [
+      "ScreenShot_2026-01-30_233112_542.png",
+      "ScreenShot_2026-01-30_233247_513.png",
+      "ScreenShot_2026-01-30_233313_335.png",
+      "ScreenShot_2026-01-30_233328_925.png",
+      "ScreenShot_2026-01-30_233359_810.png",
+      "ScreenShot_2026-01-30_233418_252.png"
+    ]
+  },
   "keijiro-takahashi": {
     "profile": "profile.jpg",
     "cover": null,
@@ -119,6 +203,9 @@
     "profile": "profile.jpg",
     "cover": null,
     "gallery": [
+      "Banner_Corgi.png",
+      "Cat.jpg",
+      "Nunchucks.jpg",
       "ScreenShot_2026-01-19_.png",
       "ScreenShot_2026-01-19_122741_802.png",
       "ScreenShot_2026-01-19_123006_016.png",
@@ -147,7 +234,7 @@
   },
   "oddviz": {
     "profile": "profile.webp",
-    "cover": "cover.jpg",
+    "cover": null,
     "gallery": [
       "Oddviz-Kreuzberg-Shedding-Single-channel-4K-Video-2019-515-scaled.jpg",
       "image.png",
@@ -155,8 +242,8 @@
     ]
   },
   "oldmediaart": {
-    "profile": null,
-    "cover": "cover.webp",
+    "profile": "profile.webp",
+    "cover": null,
     "gallery": [
       "ss_0d7176d658fe8768f5ff2f396dc499f0fc3566a1.1920x1080.jpg",
       "ss_5664c7d9029508b55fd2630f201fc1da1df5dda3.1920x1080.jpg",
@@ -253,7 +340,10 @@
       "ScreenShot_2026-01-19_122336_362.png",
       "ScreenShot_2026-01-19_122429_156.png",
       "ScreenShot_2026-01-19_122435_171.png",
-      "ScreenShot_2026-01-19_122638_495.png"
+      "ScreenShot_2026-01-19_122638_495.png",
+      "ScreenShot_2026-01-30_231521_685.png",
+      "ScreenShot_2026-01-30_231602_179.png",
+      "ScreenShot_2026-01-30_231637_280.png"
     ]
   }
 }

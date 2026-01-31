@@ -67,23 +67,35 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 
 ### B
 - **[Benjamin Bardou](https://benjaminbardou.com/)** — Filmmaker, Visual Artist
+- **[Bertrand de Becque](https://www.b2bk.fr/)** — Independent Artist
 
 ### C
+- **[Carlos Navarro](https://carlosnavarro.io/)** — Architectural Designer, Creative Technologist
 - **[Chen Momo](http://www.chenmomo.com/)** 陈墨墨 — Photographer
+- **[Clement Valla](https://clementvalla.com/)** — Artist
+- **[coco linux](https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ)** — Researcher and Developer
 
 ### D
 - **[Daniel Esco](https://www.instagram.com/daniel.esco1/)** — Curator
 
 ### E
+- **[Eddy Vajarakitipongse](https://yaknowlike.com/)** — Artist
 - **[Edmund Fraser](https://www.edmundfraser.co/)** — Photographer, Director
-- **[Eddy Vajarakitipongse](https://www.edmundfraser.co/)** — Photographer, Director
 
 ### F
 - **[FrānkǎnLīsà](https://www.frankanlisa.com)** — Researcher
 - **[Frederik Heyman](https://frederikheyman.com/)** — Photographer, Artist
 
+### H
+- **[海风质检员](https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06)** — New Media Artist
+- **[Hirokazu Yokohara](https://www.artstation.com/yokohara)** — 3D Artist
+- **[Huidaoqijishan](https://e-mons.com/all)** — Visual Designer, Digital Artist
+
 ### K
 - **[Keijiro Takahashi](https://www.keijiro.tokyo/)** — Software Engineer
+
+### M
+- **[MediaStorm](https://www.ysjf.com/home)** 影视飓风 — Content Creators
 
 ### N
 - **[Nix Liu Xin](https://liuxin.com)** — Designer, Engineer, Experience Director · Silicon Valley / Shanghai
@@ -91,7 +103,7 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 ### O
 - **[oddviz](https://www.oddviz.com/)** — Art Collective
 - **[OldMediaArt](https://space.bilibili.com/3546633788721807)** 旧媒介 — Game Studio
-- **[Overhead4D](https://overhead4d.com/)** - IT Services and IT Consulting
+- **[Overhead4D](https://overhead4d.com/)** — IT Services and IT Consulting
 
 ### R
 - **[RACONTEUR](https://www.instagram.com/raconteur.studio/)** — A creative production & post-production atelier 
@@ -106,6 +118,8 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 ### Y
 - **[Yang Rui](https://www.instagram.com/y.angr/)** 杨睿 — Artist
 - **[Yu Hao](https://zunyuh.top/)** 尉浩 — 3D Artist
+- **[Yulei He](https://medium.com/@heyulei)** — Independent developer
+- **[Yunlei Liu](https://www.instagram.com/yunlei.liu.1/?hl=en)** — Artist
 
 ---
 

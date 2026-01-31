@@ -21,7 +21,7 @@
     "title": "Designer",
     "subtitle": "",
     "location": "",
-    "tags": ["volumography"],
+    "tags": ["Reality Capture"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -35,12 +35,28 @@
     "title": "Filmmaker, Visual Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["3DGS", "Point Cloud"],
+    "tags": ["3DGS", "Point Cloud", "Cinematic"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://benjaminbardou.com/",
       "instagram": "https://www.instagram.com/benjaminbardou/"
+    }
+  },
+  {
+    "id": "bertrand-de-becque",
+    "name": "Bertrand de Becque",
+    "name_origin": "",
+    "title": "Independent Artist",
+    "subtitle": "",
+    "location": "France",
+    "tags": ["Point Cloud", "Reality Capture", "TouchDesigner"],
+    "addedDate": "2026-01-31",
+    "links": {
+      "ct": "",
+      "website": "https://www.b2bk.fr/",
+      "instagram": "https://www.instagram.com/b2bk.fr",
+      "youtube": "https://www.youtube.com/@b2bk"
     }
   },
   {
@@ -50,7 +66,7 @@
     "title": "Photographer",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "3D Scan"],
+    "tags": ["Reality Capture"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -64,7 +80,7 @@
     "title": "Architectural Designer, Creative Technologist",
     "subtitle": "",
     "location": "",
-    "tags": ["3DGS","AI","point cloud"],
+    "tags": ["3DGS", "AI", "Point Cloud"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -94,7 +110,7 @@
     "title": "Researcher",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "3DGS"],
+    "tags": ["Reality Capture", "3DGS"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -109,12 +125,54 @@
     "title": "Photographer, Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "3D Scan"],
+    "tags": ["Reality Capture"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://frederikheyman.com/",
       "instagram": "https://www.instagram.com/frederikheyman/"
+    }
+  },
+  {
+    "id": "haifengzhijianyuan",
+    "name": "海风质检员",
+    "name_origin": "",
+    "title": "New Media Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS", "Reality Capture", "AI", "TouchDesigner"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "xhs": "https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06"
+    }
+  },
+  {
+    "id": "hirokazu-yokohara",
+    "name": "Hirokazu Yokohara",
+    "name_origin": "横原 大和",
+    "title": "3D Artist",
+    "subtitle": "",
+    "location": "Japan",
+    "tags": ["3DGS","4DGS" ], 
+    "addedDate": "2026-01-31",
+    "links": {
+      "ct": "",
+      "website": "https://www.artstation.com/yokohara"
+    }
+  },
+  {
+    "id": "huidaoqijishan",
+    "name": "Huidaoqijishan",
+    "name_origin": "会到奇迹山",
+    "title": "Visual Designer, Digital Artist",
+    "subtitle": "",
+    "location": "",
+    "tags": ["VFX", "Reality Capture"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "website": "https://e-mons.com/all"
     }
   },
   {
@@ -124,7 +182,7 @@
     "title": "Software Engineer",
     "subtitle": "",
     "location": "",
-    "tags": ["Unity"],
+    "tags": ["Unity", "Real-time", "VFX", "TouchDesigner"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -138,7 +196,7 @@
     "title": "Designer, Engineer, Experience Director",
     "subtitle": "",
     "location": "Silicon Valley / Shanghai",
-    "tags": ["Photogrammetry", "3DGS", "VFX", "4DGS"],
+    "tags": ["Reality Capture", "3DGS", "VFX", "4DGS"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -155,7 +213,7 @@
     "title": "Art Collective",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry"],
+    "tags": ["Reality Capture", "Digital Archive"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -170,7 +228,7 @@
     "title": "Game Studio",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry"],
+    "tags": ["Reality Capture", "Game Art"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -184,7 +242,7 @@
     "title": "IT Services and IT Consulting",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "3DGS"],
+    "tags": ["Reality Capture", "3DGS"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -200,7 +258,7 @@
     "title": "A creative production & post-production atelier",
     "subtitle": "",
     "location": "",
-    "tags": ["3DGS", "Green screen compositing"],
+    "tags": ["3DGS"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -214,7 +272,7 @@
     "title": "VFX Artist, Director",
     "subtitle": "",
     "location": "Tokyo",
-    "tags": ["VFX", "Point Cloud"],
+    "tags": ["VFX", "Point Cloud", "TouchDesigner"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -229,7 +287,7 @@
     "title": "Photographer",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "3D Scan"],
+    "tags": ["Reality Capture"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -243,7 +301,7 @@
     "title": "Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["3D Scan ", "Point Cloud"],
+    "tags": ["Point Cloud"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -257,7 +315,7 @@
     "title": "Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["3D Scan", "Point Cloud"],
+    "tags": ["Point Cloud"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -271,7 +329,7 @@
     "title": "3D Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "VFX", "Point Cloud"],
+    "tags": ["Reality Capture", "VFX", "Point Cloud", "AI"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -285,7 +343,7 @@
     "title": "Content Creators",
     "subtitle": "",
     "location": "",
-    "tags": ["3DGS", "4DGS","Photogrammetry","Point Cloud","VFX"],
+    "tags": ["3DGS", "4DGS", "Reality Capture", "Point Cloud", "VFX", "TouchDesigner"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -301,7 +359,7 @@
     "title": "Independent developer",
     "subtitle": "",
     "location": "",
-    "tags": ["Photogrammetry", "3DGS","techniques"],
+    "tags": ["Reality Capture", "3DGS"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -315,7 +373,7 @@
     "title": "Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["3DGS","AI"],
+    "tags": ["3DGS", "AI"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -329,11 +387,40 @@
     "title": "Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["GaussianSplatting", "3DGS"],
+    "tags": ["3DGS"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://yaknowlike.com/"
+    }
+  },
+  {
+    "id": "clement-valla",
+    "name": "Clement Valla",
+    "name_origin": "",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "New York",
+    "tags": ["Point Cloud"],
+    "addedDate": "2026-01-31",
+    "links": {
+      "ct": "",
+      "website": "https://clementvalla.com/",
+      "instagram": "https://www.instagram.com/clementvalla/"
+    }
+  },
+  {
+    "id": "coco-linux",
+    "name": "coco linux",
+    "name_origin": "",
+    "title": "Researcher and Developer",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS", "4DGS", "VFX"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "youtube": "https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ"
     }
   },
   {
@@ -343,7 +430,7 @@
     "title": "Curator",
     "subtitle": "",
     "location": "",
-    "tags": ["3D Scan", "Point Cloud"],
+    "tags": ["Point Cloud"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
