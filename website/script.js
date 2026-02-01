@@ -323,8 +323,8 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('mouseleave', () => {
             if (hoverStartTimes[creatorId]) {
                 const duration = Date.now() - hoverStartTimes[creatorId];
-                // Only track hovers longer than 500ms (intentional)
-                if (duration > 500) {
+                // Only track hovers between 500ms and 30s (intentional, not AFK)
+                if (duration > 500 && duration < 30000) {
                     trackEvent('creator_hover', {
                         creator_id: creatorId,
                         hover_duration_ms: duration

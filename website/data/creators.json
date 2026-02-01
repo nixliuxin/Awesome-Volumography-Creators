@@ -110,7 +110,7 @@
     "name_origin": "",
     "title": "Computer Scientist, XR Researcher",
     "subtitle": "",
-    "location": "",
+    "location": "New Zealand",
     "tags": ["3DGS", "4DGS", "VFX", "Point Cloud"],
     "addedDate": "2026-01-30",
     "links": {
@@ -120,9 +120,9 @@
   },
   {
     "id": "daniel-esco",
-    "name": "Daniel Esco",
+    "name": "Daniel Escobar",
     "name_origin": "",
-    "title": "Designer, Developer",
+    "title": "Architecture and Computational Designer",
     "subtitle": "",
     "location": "",
     "tags": ["Point Cloud", "AI"],
@@ -167,7 +167,7 @@
     "name_origin": "",
     "title": "Visual Designer, Digital Artist",
     "subtitle": "",
-    "location": "",
+    "location": "China",
     "tags": ["VFX", "Point Cloud"],
     "addedDate": "2026-01-30",
     "links": {
@@ -225,7 +225,7 @@
     "name_origin": "",
     "title": "Software Engineer",
     "subtitle": "",
-    "location": "",
+    "location": "Tokyo, Japan",
     "tags": ["Unity", "Real-time", "VFX", "TouchDesigner"],
     "addedDate": "2026-01-16",
     "links": {
@@ -287,7 +287,7 @@
     "name_origin": "旧媒介",
     "title": "Game Studio",
     "subtitle": "",
-    "location": "",
+    "location": "China",
     "tags": ["Photogrammetry", "Game"],
     "addedDate": "2026-01-16",
     "links": {
@@ -317,7 +317,7 @@
     "name_origin": "",
     "title": "Production Studio",
     "subtitle": "",
-    "location": "",
+    "location": "Ukraine",
     "tags": ["3DGS"],
     "addedDate": "2026-01-19",
     "links": {
@@ -389,7 +389,7 @@
     "name_origin": "杨睿",
     "title": "Artist",
     "subtitle": "",
-    "location": "",
+    "location": "Shanghai, China",
     "tags": ["Point Cloud", "Photogrammetry", "3D Scan"],
     "addedDate": "2026-01-16",
     "links": {
@@ -403,7 +403,7 @@
     "name_origin": "尉浩",
     "title": "3D Artist",
     "subtitle": "",
-    "location": "",
+    "location": "China",
     "tags": ["VFX", "Point Cloud", "AI", "Photogrammetry"],
     "addedDate": "2026-01-16",
     "links": {
@@ -417,7 +417,7 @@
     "name_origin": "",
     "title": "Developer",
     "subtitle": "",
-    "location": "",
+    "location": "Italy",
     "tags": ["3DGS"],
     "addedDate": "2026-01-19",
     "links": {
@@ -431,7 +431,7 @@
     "name_origin": "",
     "title": "Cinematic Artist",
     "subtitle": "",
-    "location": "",
+    "location": "Los Angeles, USA",
     "tags": ["3DGS", "AI"],
     "addedDate": "2026-01-19",
     "links": {
