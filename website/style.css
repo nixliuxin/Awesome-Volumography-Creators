@@ -147,6 +147,25 @@
         color: var(--color-text);
     }
 
+    /* Expandable button - grows on hover */
+    .nav-btn-expand {
+        gap: 0;  /* Override default gap */
+    }
+
+    .nav-btn-expand .btn-extra {
+        display: inline-block;
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        transition: max-width 0.35s ease, opacity 0.25s ease;
+    }
+
+    .nav-btn-expand:hover .btn-extra {
+        max-width: 150px;
+        opacity: 1;
+    }
+
     /* Credit links in hero */
     .credit-link {
         color: #888;
