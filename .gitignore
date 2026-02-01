@@ -36,3 +36,7 @@ Desktop.ini
 
 # Vite
 public/shiki
+
+# Internal docs (not for public repo)
+docs/RELEASE-STEPS.md
+docs/ROADMAP.md
