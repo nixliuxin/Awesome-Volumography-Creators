@@ -147,11 +147,64 @@
         color: var(--color-text);
     }
 
+    /* Credit links in hero */
+    .credit-link {
+        color: #888;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+    
+    .credit-link:hover {
+        color: var(--color-accent);
+    }
+
     /* ==========================================
        HERO SECTION
        ========================================== */
     .hero-section {
         border-bottom: 1px solid var(--color-border);
+    }
+
+    /* Formula style */
+    .hero-formula {
+        font-family: var(--font-mono);
+        font-size: 14px;
+        color: var(--color-accent);
+        letter-spacing: 0.05em;
+        text-shadow: 0 0 20px rgba(0, 82, 255, 0.3);
+    }
+
+    @media (min-width: 768px) {
+        .hero-formula {
+            font-size: 16px;
+        }
+    }
+
+    /* Tech Badge */
+    .hero-tech-badge {
+        font-size: 12px;
+        color: #666;
+        letter-spacing: 0.03em;
+    }
+
+    .hero-tech-badge .tech-highlight {
+        color: var(--color-accent);
+        font-weight: 600;
+        text-shadow: 0 0 12px rgba(0, 82, 255, 0.4);
+    }
+
+    @media (min-width: 768px) {
+        .hero-tech-badge {
+            font-size: 13px;
+        }
+    }
+
+    /* Divider */
+    .hero-divider {
+        width: 60px;
+        height: 1px;
+        background: var(--color-border);
+        margin: 0 auto 24px;
     }
 
     /* Technology tags in hero - subtle, not clickable */
