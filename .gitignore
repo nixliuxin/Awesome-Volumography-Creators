@@ -40,3 +40,6 @@ public/shiki
 # Internal docs (not for public repo)
 docs/RELEASE-STEPS.md
 docs/ROADMAP.md
+
+# Analytics (private)
+website/analytics/

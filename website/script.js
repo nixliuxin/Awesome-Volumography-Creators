@@ -266,6 +266,9 @@ document.addEventListener('DOMContentLoaded', () => {
             setupHoverCarousel(card, uniqueImages);
         }
 
+        // Setup analytics tracking
+        setupCardAnalytics(card, creator.id);
+
         return card;
     };
 
@@ -296,6 +299,65 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             imgElement.src = originalSrc;
         });
+    };
+
+    /**
+     * Setup analytics tracking for card (Google Analytics 4)
+     * Only tracks on volumography.com
+     */
+    const isProduction = location.hostname === 'volumography.com';
+    let hoverStartTimes = {};
+
+    const trackEvent = (eventName, params) => {
+        if (isProduction && typeof gtag === 'function') {
+            gtag('event', eventName, params);
+        }
+    };
+
+    const setupCardAnalytics = (card, creatorId) => {
+        // Track hover duration
+        card.addEventListener('mouseenter', () => {
+            hoverStartTimes[creatorId] = Date.now();
+        });
+        
+        card.addEventListener('mouseleave', () => {
+            if (hoverStartTimes[creatorId]) {
+                const duration = Date.now() - hoverStartTimes[creatorId];
+                // Only track hovers longer than 500ms (intentional)
+                if (duration > 500) {
+                    trackEvent('creator_hover', {
+                        creator_id: creatorId,
+                        hover_duration_ms: duration
+                    });
+                }
+                delete hoverStartTimes[creatorId];
+            }
+        });
+        
+        // Track clicks on links
+        card.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                let linkType = 'other';
+                if (link.classList.contains('card-link')) {
+                    linkType = 'website';
+                } else if (link.classList.contains('social-icon')) {
+                    linkType = (link.getAttribute('title') || 'social').toLowerCase();
+                }
+                trackEvent('creator_link_click', {
+                    creator_id: creatorId,
+                    link_type: linkType
+                });
+            });
+        });
+        
+        // Track card click (if it's a link to CT)
+        if (card.tagName === 'A') {
+            card.addEventListener('click', () => {
+                trackEvent('creator_card_click', {
+                    creator_id: creatorId
+                });
+            });
+        }
     };
 
     /**
