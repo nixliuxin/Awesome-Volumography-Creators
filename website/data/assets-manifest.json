@@ -49,8 +49,7 @@
     "gallery": [
       "ScreenShot_2026-01-19_121319_611.png",
       "ScreenShot_2026-01-19_121331_140.png",
-      "ScreenShot_2026-01-19_121445_219.png",
-      "image.png"
+      "ScreenShot_2026-01-19_121445_219.png"
     ]
   },
   "chen-momo": {
@@ -65,7 +64,7 @@
     ]
   },
   "clement-valla": {
-    "profile": "profile.jpg",
+    "profile": "profile.png",
     "cover": null,
     "gallery": [
       "400417033_1059379211727796_3066408882362489102_n.jpg",
@@ -97,8 +96,7 @@
     "cover": null,
     "gallery": [
       "1.png",
-      "2.png",
-      "3.png"
+      "2.png"
     ]
   },
   "e-mirascend": {
@@ -117,20 +115,15 @@
     "profile": "profile.jpg",
     "cover": null,
     "gallery": [
-      "3.png",
-      "4.png",
-      "6.png",
       "ScreenShot_2026-01-30_232203_499.png",
       "ScreenShot_2026-01-30_232227_513.png",
       "ScreenShot_2026-01-30_232247_967.png",
       "ScreenShot_2026-01-30_234253_068.png",
-      "eddy-vajarakitipongse_1.png",
-      "eddy-vajarakitipongse_2.png",
       "eddy-vajarakitipongse_7.jpg"
     ]
   },
   "edmund-fraser": {
-    "profile": "profile.jpg",
+    "profile": "profile.jpeg",
     "cover": null,
     "gallery": [
       "edmundfraser_1708706237_3309188448525599690_21706799-0002.png",
@@ -142,20 +135,19 @@
   },
   "frankanlisa": {
     "profile": "profile.png",
-    "cover": "cover.png",
+    "cover": null,
     "gallery": [
       "463212535_897387632332582_6484618142486151508_n.jpg",
       "530816059_18095224177713480_7869919166942724525_n.jpg",
       "531429723_18095224195713480_5114313359086765132_n.jpg",
       "533487112_18095224228713480_4634780150889186548_n.jpg",
       "frankanlisa_1729250260_3481525359712950461_21522081479-0005.png",
-      "frankanlisa_1729250260_3481525364289832179_21522081479-0006.png",
       "frankanlisa_1729250260_3481525364289832179_21522081479-0007.png",
       "frankanlisa_1729250260_3481525364289832179_21522081479-0008.png"
     ]
   },
   "frederik-heyman": {
-    "profile": null,
+    "profile": "profile.jpg",
     "cover": null,
     "gallery": [
       "420499399_1086718089130743_4727344433024817895_n.jpg",
@@ -166,16 +158,14 @@
     ]
   },
   "hirokazu-yokohara": {
-    "profile": "profile.jpg",
+    "profile": "profile.jpeg",
     "cover": null,
     "gallery": [
       "ScreenShot_2026-01-31_000932_261.png",
       "ScreenShot_2026-01-31_001027_619.png",
       "ScreenShot_2026-01-31_001034_933.png",
       "ScreenShot_2026-01-31_001040_947.png",
-      "ScreenShot_2026-01-31_001053_623.png",
-      "ScreenShot_2026-01-31_001105_302.png",
-      "ScreenShot_2026-01-31_001118_300.png"
+      "ScreenShot_2026-01-31_001053_623.png"
     ]
   },
   "keijiro-takahashi": {
@@ -199,10 +189,6 @@
       "ScreenShot_2026-01-19_123216_117.png",
       "ScreenShot_2026-01-19_123225_688.png",
       "ScreenShot_2026-01-19_123230_502.png",
-      "ScreenShot_2026-01-19_123300_701.png",
-      "ScreenShot_2026-01-19_123313_293.png",
-      "ScreenShot_2026-01-19_123334_733.png",
-      "ScreenShot_2026-01-19_123554_782.png",
       "ScreenShot_2026-01-19_123614_246.png"
     ]
   },
@@ -212,10 +198,10 @@
     "gallery": [
       "Screenshot 2026-01-16 at 11.03.00 PM.png",
       "Screenshot 2026-01-16 at 11.03.21 PM.png",
-      "Screenshot 2026-01-16 at 11.03.34 PM.png",
       "Screenshot 2026-01-16 at 11.03.39 PM.png",
       "Screenshot 2026-01-16 at 11.03.51 PM.png",
       "Screenshot 2026-01-16 at 11.04.08 PM.png",
+      "cover.png",
       "六楼骑街_-_point_cloud_volumetric_photography (1080p)-0001.png"
     ]
   },
@@ -243,17 +229,14 @@
     "cover": null,
     "gallery": [
       "502619595_18226792975290508_7320833194022881972_n.jpg",
-      "ScreenShot_2026-01-19_115045_328.png",
-      "ScreenShot_2026-01-19_115137_073.png",
       "ScreenShot_2026-01-19_115152_327.png"
     ]
   },
   "reconteur": {
     "profile": null,
-    "cover": null,
+    "cover": "cover.png",
     "gallery": [
       "ScreenShot_2026-01-19_015156_112.png",
-      "ScreenShot_2026-01-19_015354_058.png",
       "ScreenShot_2026-01-19_015454_593.png",
       "ScreenShot_2026-01-19_015507_252.png",
       "ScreenShot_2026-01-19_015516_073.png"
@@ -261,11 +244,10 @@
   },
   "rubenfro": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "cover.png",
     "gallery": [
       "130890794_2737163566548302_4873004461541834303_n.jpg",
       "Screenshot-2023-05-29-alle-17.20.29.webp",
-      "image.png",
       "wxsync-2022-11-8ed199eecff836cc71a5aeb265b59595-1-1024x434.jpeg"
     ]
   },
@@ -290,7 +272,7 @@
   },
   "yan-xiangning": {
     "profile": "profile.webp",
-    "cover": null,
+    "cover": "cover.png",
     "gallery": [
       "ScreenShot_2026-01-30_235021_871.png",
       "ScreenShot_2026-01-30_235109_909.png",
@@ -315,23 +297,21 @@
   },
   "yu-hao": {
     "profile": null,
-    "cover": null,
+    "cover": "cover.png",
     "gallery": [
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0009.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0010.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0011.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0012.png",
-      "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0013.png",
-      "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0014.png"
+      "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0013.png"
     ]
   },
   "yulei-he": {
     "profile": null,
     "cover": null,
     "gallery": [
-      "ScreenShot_2026-01-19_120100_659.png",
-      "ScreenShot_2026-01-19_120228_366.png",
-      "ScreenShot_2026-01-19_120428_201.png"
+      "Screenshot 2026-02-02 at 4.33.43 AM.png",
+      "Screenshot 2026-02-02 at 4.34.02 AM.png"
     ]
   },
   "yunlei-liu": {
@@ -339,11 +319,6 @@
     "cover": null,
     "gallery": [
       "ScreenShot_2026-01-19_122336_362.png",
-      "ScreenShot_2026-01-19_122429_156.png",
-      "ScreenShot_2026-01-19_122435_171.png",
-      "ScreenShot_2026-01-19_122638_495.png",
-      "ScreenShot_2026-01-30_231521_685.png",
-      "ScreenShot_2026-01-30_231602_179.png",
       "ScreenShot_2026-01-30_231637_280.png"
     ]
   }
