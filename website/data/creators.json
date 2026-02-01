@@ -5,8 +5,8 @@
     "name_origin": "",
     "title": "Filmmaker, Artist",
     "subtitle": "",
-    "location": "",
-    "tags": ["4DGS", "3DGS", "AI"],
+    "location": "Japan",
+    "tags": ["4DGS", "3DGS", "Bullet Time", "360 Video"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -20,8 +20,8 @@
     "name_origin": "",
     "title": "Designer",
     "subtitle": "",
-    "location": "",
-    "tags": ["Reality Capture"],
+    "location": "San Jose, USA",
+    "tags": ["Volumetric Video"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -34,7 +34,7 @@
     "name_origin": "",
     "title": "Filmmaker, Visual Artist",
     "subtitle": "",
-    "location": "",
+    "location": "France",
     "tags": ["3DGS", "Point Cloud", "Cinematic"],
     "addedDate": "2026-01-16",
     "links": {
@@ -50,7 +50,7 @@
     "title": "Independent Artist",
     "subtitle": "",
     "location": "France",
-    "tags": ["Point Cloud", "Reality Capture", "TouchDesigner"],
+    "tags": ["Point Cloud", "TouchDesigner"],
     "addedDate": "2026-01-31",
     "links": {
       "ct": "",
@@ -60,13 +60,29 @@
     }
   },
   {
+    "id": "carlos-navarro",
+    "name": "Carlos Navarro",
+    "name_origin": "",
+    "title": "Architect, Creative Technologist",
+    "subtitle": "",
+    "location": "Los Angeles, USA",
+    "tags": ["3DGS", "AI", "Point Cloud"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://carlosnavarro.io/",
+      "instagram": "https://www.instagram.com/carlosnavarro.cn/",
+      "linkedin": "https://www.linkedin.com/in/carlosnavarro-cn/"
+    }
+  },
+  {
     "id": "chen-momo",
     "name": "Chen Momo",
     "name_origin": "陈墨墨",
     "title": "Photographer",
     "subtitle": "",
-    "location": "",
-    "tags": ["Reality Capture"],
+    "location": "Shanghai, China",
+    "tags": ["Photogrammetry"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -74,18 +90,60 @@
     }
   },
   {
-    "id": "carlos-navarro",
-    "name": "Carlos Navarro",
+    "id": "clement-valla",
+    "name": "Clement Valla",
     "name_origin": "",
-    "title": "Architectural Designer, Creative Technologist",
+    "title": "Artist",
     "subtitle": "",
-    "location": "",
-    "tags": ["3DGS", "AI", "Point Cloud"],
-    "addedDate": "2026-01-19",
+    "location": "New York, USA",
+    "tags": ["Point Cloud", "Photogrammetry"],
+    "addedDate": "2026-01-31",
     "links": {
       "ct": "",
-      "website": "https://carlosnavarro.io/",
-      "linkedin": "https://www.linkedin.com/in/carlosnavarro-cn/"
+      "website": "https://clementvalla.com/",
+      "instagram": "https://www.instagram.com/clementvalla/"
+    }
+  },
+  {
+    "id": "coco-linux",
+    "name": "coco linux",
+    "name_origin": "",
+    "title": "Computer Scientist, XR Researcher",
+    "subtitle": "",
+    "location": "",
+    "tags": ["3DGS", "4DGS", "VFX", "Point Cloud"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "youtube": "https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ"
+    }
+  },
+  {
+    "id": "daniel-esco",
+    "name": "Daniel Esco",
+    "name_origin": "",
+    "title": "Designer, Developer",
+    "subtitle": "",
+    "location": "",
+    "tags": ["Point Cloud", "AI"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/daniel.esco1/"
+    }
+  },
+  {
+    "id": "eddy-vajarakitipongse",
+    "name": "Eddy Vajarakitipongse",
+    "name_origin": "",
+    "title": "Creative Technologist",
+    "subtitle": "",
+    "location": "Los Angeles, USA",
+    "tags": ["3DGS", "XR"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://yaknowlike.com/"
     }
   },
   {
@@ -94,7 +152,7 @@
     "name_origin": "",
     "title": "Photographer, Director",
     "subtitle": "",
-    "location": "",
+    "location": "London, UK",
     "tags": ["3DGS"],
     "addedDate": "2026-01-16",
     "links": {
@@ -104,13 +162,27 @@
     }
   },
   {
-    "id": "frankanlisa",
-    "name": "FrānkǎnLīsà",
+    "id": "e-mirascend",
+    "name": "E.Mirascend",
     "name_origin": "",
-    "title": "Researcher",
+    "title": "Visual Designer, Digital Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["Reality Capture", "3DGS"],
+    "tags": ["VFX", "Point Cloud"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "website": "https://e-mons.com/all"
+    }
+  },
+  {
+    "id": "frankanlisa",
+    "name": "FrānkǎnLīsà",
+    "name_origin": "Zhang Haotian + Li Tianying",
+    "title": "Researcher",
+    "subtitle": "",
+    "location": "Hong Kong",
+    "tags": ["3DGS", "Photogrammetry"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -124,27 +196,13 @@
     "name_origin": "",
     "title": "Photographer, Artist",
     "subtitle": "",
-    "location": "",
-    "tags": ["Reality Capture"],
+    "location": "Belgium",
+    "tags": ["Photogrammetry", "3D Scan"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
       "website": "https://frederikheyman.com/",
       "instagram": "https://www.instagram.com/frederikheyman/"
-    }
-  },
-  {
-    "id": "haifengzhijianyuan",
-    "name": "海风质检员",
-    "name_origin": "",
-    "title": "New Media Artist",
-    "subtitle": "",
-    "location": "",
-    "tags": ["3DGS", "Reality Capture", "AI", "TouchDesigner"],
-    "addedDate": "2026-01-30",
-    "links": {
-      "ct": "",
-      "xhs": "https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06"
     }
   },
   {
@@ -154,25 +212,11 @@
     "title": "3D Artist",
     "subtitle": "",
     "location": "Japan",
-    "tags": ["3DGS","4DGS" ], 
+    "tags": ["3DGS"],
     "addedDate": "2026-01-31",
     "links": {
       "ct": "",
       "website": "https://www.artstation.com/yokohara"
-    }
-  },
-  {
-    "id": "huidaoqijishan",
-    "name": "Huidaoqijishan",
-    "name_origin": "会到奇迹山",
-    "title": "Visual Designer, Digital Artist",
-    "subtitle": "",
-    "location": "",
-    "tags": ["VFX", "Reality Capture"],
-    "addedDate": "2026-01-30",
-    "links": {
-      "ct": "",
-      "website": "https://e-mons.com/all"
     }
   },
   {
@@ -190,13 +234,29 @@
     }
   },
   {
+    "id": "mediastorm",
+    "name": "MediaStorm",
+    "name_origin": "影视飓风",
+    "title": "Content Creators",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["3DGS", "4DGS", "Point Cloud", "VFX"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://www.ysjf.com/home",
+      "bilibili": "https://space.bilibili.com/946974",
+      "youtube": "https://www.youtube.com/@mediastorm6801"
+    }
+  },
+  {
     "id": "nix-liu-xin",
     "name": "Nix Liu Xin",
     "name_origin": "",
-    "title": "Designer, Engineer, Experience Director",
+    "title": "Artist, Designer, Engineer",
     "subtitle": "",
-    "location": "Silicon Valley / Shanghai",
-    "tags": ["Reality Capture", "3DGS", "VFX", "4DGS"],
+    "location": "Los Angeles, USA / Shanghai, China",
+    "tags": ["3DGS", "VFX", "4DGS", "Photogrammetry"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -212,8 +272,8 @@
     "name_origin": "",
     "title": "Art Collective",
     "subtitle": "",
-    "location": "",
-    "tags": ["Reality Capture", "Digital Archive"],
+    "location": "İstanbul, Turkey",
+    "tags": ["Photogrammetry", "Digital Archive"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -228,7 +288,7 @@
     "title": "Game Studio",
     "subtitle": "",
     "location": "",
-    "tags": ["Reality Capture", "Game Art"],
+    "tags": ["Photogrammetry", "Game"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -239,10 +299,10 @@
     "id": "overhead4d",
     "name": "Overhead4D",
     "name_origin": "",
-    "title": "IT Services and IT Consulting",
+    "title": "Creative Photogrammetry Studio",
     "subtitle": "",
-    "location": "",
-    "tags": ["Reality Capture", "3DGS"],
+    "location": "Kežmarok, Slovakia",
+    "tags": ["3DGS", "Photogrammetry"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -255,13 +315,14 @@
     "id": "reconteur",
     "name": "RACONTEUR",
     "name_origin": "",
-    "title": "A creative production & post-production atelier",
+    "title": "Production Studio",
     "subtitle": "",
     "location": "",
     "tags": ["3DGS"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
+      "website": "https://www.raconteur.studio/",
       "instagram": "https://www.instagram.com/raconteur.studio/"
     }
   },
@@ -271,7 +332,7 @@
     "name_origin": "",
     "title": "VFX Artist, Director",
     "subtitle": "",
-    "location": "Tokyo",
+    "location": "Tokyo, Japan",
     "tags": ["VFX", "Point Cloud", "TouchDesigner"],
     "addedDate": "2026-01-16",
     "links": {
@@ -286,8 +347,8 @@
     "name_origin": "",
     "title": "Photographer",
     "subtitle": "",
-    "location": "",
-    "tags": ["Reality Capture"],
+    "location": "Singapore",
+    "tags": ["Photogrammetry", "3D Scan"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -300,12 +361,26 @@
     "name_origin": "吴欣然",
     "title": "Artist",
     "subtitle": "",
-    "location": "",
-    "tags": ["Point Cloud"],
+    "location": "Los Angeles, USA",
+    "tags": ["Point Cloud", "Photogrammetry"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
       "instagram": "https://www.instagram.com/_mentha99/"
+    }
+  },
+  {
+    "id": "yan-xiangning",
+    "name": "Yan Xiangning",
+    "name_origin": "严湘宁 / 海风质检员",
+    "title": "New Media Artist",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["3DGS", "AI", "TouchDesigner"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "xhs": "https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06"
     }
   },
   {
@@ -315,7 +390,7 @@
     "title": "Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["Point Cloud"],
+    "tags": ["Point Cloud", "Photogrammetry", "3D Scan"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -329,7 +404,7 @@
     "title": "3D Artist",
     "subtitle": "",
     "location": "",
-    "tags": ["Reality Capture", "VFX", "Point Cloud", "AI"],
+    "tags": ["VFX", "Point Cloud", "AI", "Photogrammetry"],
     "addedDate": "2026-01-16",
     "links": {
       "ct": "",
@@ -337,29 +412,13 @@
     }
   },
   {
-    "id": "mediastorm",
-    "name": "MediaStorm",
-    "name_origin": "影视飓风",
-    "title": "Content Creators",
-    "subtitle": "",
-    "location": "",
-    "tags": ["3DGS", "4DGS", "Reality Capture", "Point Cloud", "VFX", "TouchDesigner"],
-    "addedDate": "2026-01-19",
-    "links": {
-      "ct": "",
-      "website": "https://www.ysjf.com/home",
-      "bilibili": "https://space.bilibili.com/946974",
-      "youtube": "https://www.youtube.com/@mediastorm6801"
-    }
-  },
-  {
     "id": "yulei-he",
     "name": "Yulei He",
     "name_origin": "",
-    "title": "Independent developer",
+    "title": "Developer",
     "subtitle": "",
     "location": "",
-    "tags": ["Reality Capture", "3DGS"],
+    "tags": ["3DGS"],
     "addedDate": "2026-01-19",
     "links": {
       "ct": "",
@@ -370,7 +429,7 @@
     "id": "yunlei-liu",
     "name": "Yunlei Liu",
     "name_origin": "",
-    "title": "Artist",
+    "title": "Cinematic Artist",
     "subtitle": "",
     "location": "",
     "tags": ["3DGS", "AI"],
@@ -378,63 +437,6 @@
     "links": {
       "ct": "",
       "instagram": "https://www.instagram.com/yunlei.liu.1/?hl=en"
-    }
-  },
-  {
-    "id": "eddy-vajarakitipongse",
-    "name": "Eddy Vajarakitipongse",
-    "name_origin": "",
-    "title": "Artist",
-    "subtitle": "",
-    "location": "",
-    "tags": ["3DGS"],
-    "addedDate": "2026-01-16",
-    "links": {
-      "ct": "",
-      "website": "https://yaknowlike.com/"
-    }
-  },
-  {
-    "id": "clement-valla",
-    "name": "Clement Valla",
-    "name_origin": "",
-    "title": "Artist",
-    "subtitle": "",
-    "location": "New York",
-    "tags": ["Point Cloud"],
-    "addedDate": "2026-01-31",
-    "links": {
-      "ct": "",
-      "website": "https://clementvalla.com/",
-      "instagram": "https://www.instagram.com/clementvalla/"
-    }
-  },
-  {
-    "id": "coco-linux",
-    "name": "coco linux",
-    "name_origin": "",
-    "title": "Researcher and Developer",
-    "subtitle": "",
-    "location": "",
-    "tags": ["3DGS", "4DGS", "VFX"],
-    "addedDate": "2026-01-30",
-    "links": {
-      "ct": "",
-      "youtube": "https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ"
-    }
-  },
-  {
-    "id": "daniel-esco",
-    "name": "Daniel Esco",
-    "name_origin": "",
-    "title": "Curator",
-    "subtitle": "",
-    "location": "",
-    "tags": ["Point Cloud"],
-    "addedDate": "2026-01-16",
-    "links": {
-      "ct": "",
-      "instagram": "https://www.instagram.com/daniel.esco1/"
     }
   }
 ]

@@ -62,64 +62,64 @@ This list is a portal to the pioneers of this vision. Curated by [Creative.Tech]
 ## Creators A-Z
 
 ### A
-- **[Arata Fukoe](https://www.aratafukoe.com/)** — Filmmaker, Artist
-- **[Andrew R McHugh](https://andrewrmchugh.rocks/)** — Designer
+- **[Andrew R McHugh](https://andrewrmchugh.rocks/)** — Designer · San Jose, USA
+- **[Arata Fukoe](https://www.aratafukoe.com/)** — Filmmaker, Artist · Japan
 
 ### B
-- **[Benjamin Bardou](https://benjaminbardou.com/)** — Filmmaker, Visual Artist
-- **[Bertrand de Becque](https://www.b2bk.fr/)** — Independent Artist
+- **[Benjamin Bardou](https://benjaminbardou.com/)** — Filmmaker, Visual Artist · France
+- **[Bertrand de Becque](https://www.b2bk.fr/)** — Independent Artist · France
 
 ### C
-- **[Carlos Navarro](https://carlosnavarro.io/)** — Architectural Designer, Creative Technologist
-- **[Chen Momo](http://www.chenmomo.com/)** 陈墨墨 — Photographer
-- **[Clement Valla](https://clementvalla.com/)** — Artist
-- **[coco linux](https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ)** — Researcher and Developer
+- **[Carlos Navarro](https://carlosnavarro.io/)** — Architect, Creative Technologist · Los Angeles, USA
+- **[Chen Momo](http://www.chenmomo.com/)** 陈墨墨 — Photographer · Shanghai, China
+- **[Clement Valla](https://clementvalla.com/)** — Artist · New York, USA
+- **[coco linux](https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ)** — Computer Scientist, XR Researcher
 
 ### D
-- **[Daniel Esco](https://www.instagram.com/daniel.esco1/)** — Curator
+- **[Daniel Esco](https://www.instagram.com/daniel.esco1/)** — Designer, Developer
 
 ### E
-- **[Eddy Vajarakitipongse](https://yaknowlike.com/)** — Artist
-- **[Edmund Fraser](https://www.edmundfraser.co/)** — Photographer, Director
+- **[E.Mirascend](https://e-mons.com/all)** — Visual Designer, Digital Artist
+- **[Eddy Vajarakitipongse](https://yaknowlike.com/)** — Creative Technologist · Los Angeles, USA
+- **[Edmund Fraser](https://www.edmundfraser.co/)** — Photographer, Director · London, UK
 
 ### F
-- **[FrānkǎnLīsà](https://www.frankanlisa.com)** — Researcher
-- **[Frederik Heyman](https://frederikheyman.com/)** — Photographer, Artist
+- **[FrānkǎnLīsà](https://www.frankanlisa.com)** (Zhang Haotian + Li Tianying) — Researcher · Hong Kong
+- **[Frederik Heyman](https://frederikheyman.com/)** — Photographer, Artist · Belgium
 
 ### H
-- **[海风质检员](https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06)** — New Media Artist
-- **[Hirokazu Yokohara](https://www.artstation.com/yokohara)** — 3D Artist
-- **[Huidaoqijishan](https://e-mons.com/all)** — Visual Designer, Digital Artist
+- **[Hirokazu Yokohara](https://www.artstation.com/yokohara)** 横原 大和 — 3D Artist · Japan
 
 ### K
 - **[Keijiro Takahashi](https://www.keijiro.tokyo/)** — Software Engineer
 
 ### M
-- **[MediaStorm](https://www.ysjf.com/home)** 影视飓风 — Content Creators
+- **[MediaStorm](https://www.ysjf.com/home)** 影视飓风 — Content Creators · China
 
 ### N
-- **[Nix Liu Xin](https://liuxin.com)** — Designer, Engineer, Experience Director · Silicon Valley / Shanghai
+- **[Nix Liu Xin](https://liuxin.com)** — Artist, Designer, Engineer · Los Angeles, USA / Shanghai, China
 
 ### O
-- **[oddviz](https://www.oddviz.com/)** — Art Collective
+- **[oddviz](https://www.oddviz.com/)** — Art Collective · İstanbul, Turkey
 - **[OldMediaArt](https://space.bilibili.com/3546633788721807)** 旧媒介 — Game Studio
-- **[Overhead4D](https://overhead4d.com/)** — IT Services and IT Consulting
+- **[Overhead4D](https://overhead4d.com/)** — Creative Photogrammetry Studio · Kežmarok, Slovakia
 
 ### R
-- **[RACONTEUR](https://www.instagram.com/raconteur.studio/)** — A creative production & post-production atelier 
-- **[RubenFro](https://rubenfro.com/)** — VFX Artist, Director · Tokyo
+- **[RACONTEUR](https://www.raconteur.studio/)** — Production Studio
+- **[RubenFro](https://rubenfro.com/)** — VFX Artist, Director · Tokyo, Japan
 
 ### S
-- **[Shavonne Wong](https://www.shavonnewong.art/)** — Photographer
+- **[Shavonne Wong](https://www.shavonnewong.art/)** — Photographer · Singapore
 
-### W
-- **[Xinran Wu](https://www.instagram.com/_mentha99/)** 吴欣然 — Artist
+### X
+- **[Xinran Wu](https://www.instagram.com/_mentha99/)** 吴欣然 — Artist · Los Angeles, USA
 
 ### Y
+- **[Yan Xiangning](https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06)** (严湘宁 / 海风质检员) — New Media Artist · China
 - **[Yang Rui](https://www.instagram.com/y.angr/)** 杨睿 — Artist
 - **[Yu Hao](https://zunyuh.top/)** 尉浩 — 3D Artist
-- **[Yulei He](https://medium.com/@heyulei)** — Independent developer
-- **[Yunlei Liu](https://www.instagram.com/yunlei.liu.1/?hl=en)** — Artist
+- **[Yulei He](https://medium.com/@heyulei)** — Developer
+- **[Yunlei Liu](https://www.instagram.com/yunlei.liu.1/?hl=en)** — Cinematic Artist
 
 ---
 
