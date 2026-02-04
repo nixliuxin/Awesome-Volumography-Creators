@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "A curated list of 3D/4D scanning artists",
   "scripts": {
-    "dev": "npm run manifest && vite website",
-    "build": "npm run manifest && vite build website && npm run optimize-images && npm run copy-data",
-    "copy-data": "cp -r website/data website/dist/",
+    "dev": "npm run manifest && npx vite",
+    "build": "npm run manifest && npx vite build && npm run optimize-images && npm run copy-data",
+    "copy-data": "node -e \"require('fs').cpSync('website/data','dist/data',{recursive:true})\"",
     "optimize-images": "node scripts/optimize-images.js",
-    "preview": "vite preview website",
+    "preview": "npx vite preview",
     "manifest": "node scripts/generate-manifest.js"
   },
   "devDependencies": {

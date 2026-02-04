@@ -404,9 +404,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (filtered.length === 0) {
             gallery.innerHTML = `
                 <div class="col-span-full text-center py-20 bg-[#0a0a0a]">
-                    <p class="text-[#888] text-sm">No Creators Found</p>
+                    <p class="text-secondary text-sm">No Creators Found</p>
                     <button onclick="document.getElementById('reset-filters').click()" 
-                            class="text-[#0052FF] text-sm mt-4">
+                            class="link-accent text-sm mt-4">
                         Clear Filters
                     </button>
                 </div>
