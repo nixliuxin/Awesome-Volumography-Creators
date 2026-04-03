@@ -1,11 +1,11 @@
 {
   "name": "awesome-volumography-creators",
   "version": "1.0.0",
-  "description": "A curated list of 3D/4D scanning artists",
+  "description": "Curated gallery of the world's best Gaussian Splatting, NeRF & 3D/4D capture artists. The Volumography movement.",
   "scripts": {
     "dev": "npm run manifest && npx vite",
     "build": "npm run manifest && npx vite build && npm run optimize-images && npm run copy-data",
-    "copy-data": "node -e \"require('fs').cpSync('website/data','dist/data',{recursive:true})\"",
+    "copy-data": "node -e \"const fs=require('fs'); fs.cpSync('website/data','website/dist/data',{recursive:true}); fs.cpSync('website/assets/og-image.jpg','website/dist/assets/og-image.jpg');\"",
     "optimize-images": "node scripts/optimize-images.js",
     "preview": "npx vite preview",
     "manifest": "node scripts/generate-manifest.js"

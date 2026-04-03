@@ -1,9 +1,8 @@
 {
   "andrew-r-mchugh": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "cover.png",
     "gallery": [
-      "ScreenShot_2026-01-19_023032_547.png",
       "ScreenShot_2026-01-19_023121_150.png",
       "maxresdefault.jpg",
       "nTGUUlKN98NxpsHF.jpg"
@@ -11,10 +10,9 @@
   },
   "arata-fukoe": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "cover.jpg",
     "gallery": [
-      "ScreenShot_2026-01-19_021703_432.png",
-      "ScreenShot_2026-01-19_021812_621.png"
+      "Arata  4D Gaussian Splatting  近い将来一般的になる四次元を自由にコントロールできる技術 34台のGo - 5.82.jpg"
     ]
   },
   "benjamin-bardou": {
@@ -24,17 +22,16 @@
       "Cleo Varga_000.jpg",
       "Magda Ellstern_000.jpg",
       "Shared Memories_000.jpg",
-      "Shared Memories_003.jpg",
       "Shared Memories_004.jpg",
       "Shared Memories_007.jpg",
+      "bb.jpg",
       "benjaminbardou_1748592808_3643782259924319008_3060906433 - 0.92.jpg"
     ]
   },
   "bertrand-de-becque": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "431963479_421415697223983_4703555010680171814_n.jpg",
     "gallery": [
-      "431963479_421415697223983_4703555010680171814_n.jpg",
       "433504713_1555047532007801_2143700541253618301_n.jpg",
       "469047849_1147538433383341_2442840267845523335_n.jpg",
       "469212102_1347561896553588_3490195207918848555_n.jpg",
@@ -43,18 +40,13 @@
   },
   "carlos-navarro": {
     "profile": null,
-    "cover": null,
-    "gallery": [
-      "ScreenShot_2026-01-19_121319_611.png",
-      "ScreenShot_2026-01-19_121331_140.png",
-      "ScreenShot_2026-01-19_121445_219.png"
-    ]
+    "cover": "ScreenShot_2026-01-19_121445_219.png",
+    "gallery": []
   },
   "chen-momo": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "1605691221321012.jpg",
     "gallery": [
-      "1605691221321012.jpg",
       "1605691223794892.jpg",
       "1605691230105545.jpeg",
       "1605691232774050.jpg",
@@ -63,19 +55,18 @@
   },
   "clement-valla": {
     "profile": "profile.png",
-    "cover": null,
+    "cover": "CV-92-image.png",
     "gallery": [
       "400417033_1059379211727796_3066408882362489102_n.jpg",
       "420397970_367455592562235_556310821490810546_n.jpg",
       "421722964_742142427523912_3887744505912634982_n.jpg",
-      "482219889_18039481847528486_651241782638655959_n.jpg",
-      "514608378_18051939191528486_156255130166767752_n.jpg",
-      "516098330_18051939203528486_1950478592892304091_n.jpg"
+      "516098330_18051939203528486_1950478592892304091_n.jpg",
+      "berggallery-clement-valla-postcard-from-google-earth-deception-pass-48-24-31.5-n-122-38-45.5-w-2012.webp"
     ]
   },
   "coco-linux": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "ScreenShot_2026-01-30_234208_508.png",
     "gallery": [
       "ScreenShot_2026-01-30_233902_224.png",
       "ScreenShot_2026-01-30_233917_466.png",
@@ -85,36 +76,30 @@
       "ScreenShot_2026-01-30_234054_496.png",
       "ScreenShot_2026-01-30_234108_710.png",
       "ScreenShot_2026-01-30_234158_717.png",
-      "ScreenShot_2026-01-30_234208_508.png",
       "ScreenShot_2026-01-30_234235_208.png"
     ]
   },
   "daniel-esco": {
     "profile": null,
-    "cover": null,
-    "gallery": [
-      "1.png",
-      "2.png"
-    ]
+    "cover": "daniel.esco1_1695488601_3198312169430838535_1929811698.mp4_20260403_234653.176.jpg",
+    "gallery": []
   },
   "e-mirascend": {
     "profile": "profile.png",
-    "cover": null,
+    "cover": "ScreenShot_2026-01-30_233418_252.png",
     "gallery": [
       "ScreenShot_2026-01-30_233112_542.png",
       "ScreenShot_2026-01-30_233247_513.png",
       "ScreenShot_2026-01-30_233313_335.png",
       "ScreenShot_2026-01-30_233328_925.png",
-      "ScreenShot_2026-01-30_233359_810.png",
-      "ScreenShot_2026-01-30_233418_252.png"
+      "ScreenShot_2026-01-30_233359_810.png"
     ]
   },
   "eddy-vajarakitipongse": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "ScreenShot_2026-01-30_232227_513.png",
     "gallery": [
       "ScreenShot_2026-01-30_232203_499.png",
-      "ScreenShot_2026-01-30_232227_513.png",
       "ScreenShot_2026-01-30_232247_967.png",
       "ScreenShot_2026-01-30_234253_068.png",
       "eddy-vajarakitipongse_7.jpg"
@@ -122,23 +107,21 @@
   },
   "edmund-fraser": {
     "profile": "profile.jpeg",
-    "cover": null,
+    "cover": "image-6b6d37d8-df42-4767-a53c-c0ab757cb470.webp",
     "gallery": [
-      "edmundfraser_1708706237_3309188448525599690_21706799-0002.png",
       "edmundfraser_1708706237_3309188449448291393_21706799-0003.png",
       "edmundfraser_1715694089_3367806748024912381_21706799-0001.png",
       "edmundfraser_1742914173_3596146165184302061_21706799-0004.png",
-      "image-6b6d37d8-df42-4767-a53c-c0ab757cb470.webp"
+      "image-8925301a-f6dc-479f-88e8-955f47da4206.webp"
     ]
   },
   "frankanlisa": {
     "profile": "profile.png",
-    "cover": null,
+    "cover": "533487112_18095224228713480_4634780150889186548_n.jpg",
     "gallery": [
       "463212535_897387632332582_6484618142486151508_n.jpg",
       "530816059_18095224177713480_7869919166942724525_n.jpg",
       "531429723_18095224195713480_5114313359086765132_n.jpg",
-      "533487112_18095224228713480_4634780150889186548_n.jpg",
       "frankanlisa_1729250260_3481525359712950461_21522081479-0005.png",
       "frankanlisa_1729250260_3481525364289832179_21522081479-0007.png",
       "frankanlisa_1729250260_3481525364289832179_21522081479-0008.png"
@@ -146,20 +129,18 @@
   },
   "frederik-heyman": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "https-hk.hypebeast.com-files-2019-10-BURBERRY-ARTHUR-Sneakers-5.jpg",
     "gallery": [
       "420499399_1086718089130743_4727344433024817895_n.jpg",
       "491429046_18371960401132615_5348082537895489543_n.jpg",
       "DUST-Billy.jpg",
-      "DUST-Glenn-Martens.jpg",
-      "https-hk.hypebeast.com-files-2019-10-BURBERRY-ARTHUR-Sneakers-5.jpg"
+      "DUST-Glenn-Martens.jpg"
     ]
   },
   "hirokazu-yokohara": {
     "profile": "profile.jpeg",
-    "cover": null,
+    "cover": "ScreenShot_2026-01-31_000932_261.png",
     "gallery": [
-      "ScreenShot_2026-01-31_000932_261.png",
       "ScreenShot_2026-01-31_001027_619.png",
       "ScreenShot_2026-01-31_001034_933.png",
       "ScreenShot_2026-01-31_001040_947.png",
@@ -168,66 +149,61 @@
   },
   "keijiro-takahashi": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "5cafafbbeec271e9140ccfc9_Keijiro_hero.jpg",
     "gallery": [
-      "5cafafbbeec271e9140ccfc9_Keijiro_hero.jpg",
       "maxresdefault.jpg"
     ]
   },
   "mediastorm": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "Screenshot 20260403233156.png",
     "gallery": [
-      "Banner_Corgi.png",
-      "Cat.jpg",
-      "Nunchucks.jpg",
       "ScreenShot_2026-01-19_.png",
       "ScreenShot_2026-01-19_122741_802.png",
       "ScreenShot_2026-01-19_123006_016.png",
-      "ScreenShot_2026-01-19_123216_117.png",
       "ScreenShot_2026-01-19_123225_688.png",
-      "ScreenShot_2026-01-19_123230_502.png",
-      "ScreenShot_2026-01-19_123614_246.png"
+      "ScreenShot_2026-01-19_123230_502.png"
     ]
   },
   "nix-liu-xin": {
     "profile": "profile.jpg",
-    "cover": "cover.png",
+    "cover": "SC030_SH180_003_COMBINE.mov_20260403_233402.927.jpg",
     "gallery": [
-      "Screenshot 2026-01-16 at 11.03.00 PM.png",
-      "Screenshot 2026-01-16 at 11.03.21 PM.png",
-      "Screenshot 2026-01-16 at 11.03.39 PM.png",
-      "Screenshot 2026-01-16 at 11.03.51 PM.png",
-      "Screenshot 2026-01-16 at 11.04.08 PM.png",
-      "cover.png",
-      "六楼骑街_-_point_cloud_volumetric_photography (1080p)-0001.png"
+      "002.jpg",
+      "012.jpg",
+      "FOLLOW_THE_CYBORG_MISS GRIT CUT_FINAL.mov_20221102_001325.320.jpg",
+      "M000-M001_v006_纱幕_分层_仅视频_主副标题_请你留下来.mov_20250604_035352.334.jpg",
+      "NINI_SC010_SH010_v003.mov_20250807_041738.825.jpg",
+      "NINI_SC010_SH030_v003.mov_20250809_022248.898.jpg",
+      "NINI_SC030_SH010_v002.mov_20250809_021617.045.jpg",
+      "SC030_SH160_003_COMBINE.mov_20250820_050551.925.jpg",
+      "SC030_SH190_003.mov_20220908_010441.350.jpg",
+      "cover.jpg",
+      "六楼骑街 - 点云扫描体积摄影_v001_231015.jpg"
     ]
   },
   "oddviz": {
     "profile": "profile.webp",
-    "cover": null,
+    "cover": "napoli_4k_color.webp",
     "gallery": [
       "Oddviz-Kreuzberg-Shedding-Single-channel-4K-Video-2019-515-scaled.jpg",
-      "image.png",
-      "napoli_4k_color.webp"
+      "image.png"
     ]
   },
   "oldmediaart": {
     "profile": "profile.webp",
-    "cover": null,
+    "cover": "ss_5664c7d9029508b55fd2630f201fc1da1df5dda3.1920x1080.jpg",
     "gallery": [
       "ss_0d7176d658fe8768f5ff2f396dc499f0fc3566a1.1920x1080.jpg",
-      "ss_5664c7d9029508b55fd2630f201fc1da1df5dda3.1920x1080.jpg",
       "ss_9bda204018c2544004063ac1333306907b774cd2.1920x1080.jpg",
       "ss_aadc39362eebe1d73bebc7cb56a0cfd9e2c072b7.1920x1080.jpg"
     ]
   },
   "overhead4d": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "Screenshot 20260403233808.png",
     "gallery": [
-      "502619595_18226792975290508_7320833194022881972_n.jpg",
-      "ScreenShot_2026-01-19_115152_327.png"
+      "Screenshot 20260403233743.png"
     ]
   },
   "reconteur": {
@@ -251,17 +227,14 @@
   },
   "shavonne-wong": {
     "profile": "profile.webp",
-    "cover": null,
-    "gallery": [
-      "image.png"
-    ]
+    "cover": "image.png",
+    "gallery": []
   },
   "xinran-wu": {
     "profile": "profile.png",
-    "cover": null,
+    "cover": "ScreenShot_2026-01-19_013200_001.png",
     "gallery": [
       "ScreenShot_2026-01-19_013058_561.png",
-      "ScreenShot_2026-01-19_013200_001.png",
       "ScreenShot_2026-01-19_013209_143.png",
       "ScreenShot_2026-01-19_013217_861.png",
       "ScreenShot_2026-01-19_013232_694.png",
@@ -284,10 +257,9 @@
   },
   "yang-rui": {
     "profile": "profile.jpg",
-    "cover": null,
+    "cover": "44b9b3c95e104175a08e90b16932923b.jpeg",
     "gallery": [
       "1731dafd8b4d4b109fda2676d00884da.jpeg",
-      "44b9b3c95e104175a08e90b16932923b.jpeg",
       "5785d67f1caa435d80ff57ee465b8e30 (1).jpeg",
       "d3395925c0b14aa3bad675204cc4e554.jpeg",
       "d41a7a1ff39e474ab824ab41a0b000b5.jpeg"
@@ -295,28 +267,26 @@
   },
   "yu-hao": {
     "profile": null,
-    "cover": "cover.png",
+    "cover": "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0013.png",
     "gallery": [
+      "cover.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0009.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0010.png",
       "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0011.png",
-      "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0012.png",
-      "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0013.png"
+      "《颅内花园》【14ᵗʰ北京国际电影节AIGC最佳视效奖短片】-0012.png"
     ]
   },
   "yulei-he": {
     "profile": null,
-    "cover": null,
+    "cover": "Screenshot 2026-02-02 at 4.33.43 AM.png",
     "gallery": [
-      "Screenshot 2026-02-02 at 4.33.43 AM.png",
       "Screenshot 2026-02-02 at 4.34.02 AM.png"
     ]
   },
   "yunlei-liu": {
     "profile": "profile.png",
-    "cover": null,
+    "cover": "ScreenShot_2026-01-19_122336_362.png",
     "gallery": [
-      "ScreenShot_2026-01-19_122336_362.png",
       "ScreenShot_2026-01-30_231637_280.png"
     ]
   }

@@ -28,7 +28,7 @@
 <h1 align="center">Awesome Volumography Creators</h1>
 
 <p align="center">
-  <strong>Volumography</strong> (a word coined by volumetric and photography) is the new paradigm for creative applications of 3D/4D scanning, the next universal medium after photography and cinema.
+  <strong>Volumography</strong> (volumetric + photography) — the art and craft of capturing reality in 3D/4D. The next universal medium after photography and cinema.
 </p>
 
 <p align="center">
