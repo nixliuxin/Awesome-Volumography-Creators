@@ -2,7 +2,18 @@
 
 Thank you for your interest in contributing! 🎉
 
-## How to Add a Creator
+## Two Ways to Submit
+
+| Method | Best for | Link |
+|--------|----------|------|
+| **Submit Form** | Everyone — just fill out the form | [Submit via Form](https://nixliuxin.notion.site/1ec3ffcdd17d80a0b6bec0d0743af891) |
+| **GitHub Pull Request** | Developers — full control over your entry | See steps below |
+
+> We review all submissions within 1–2 weeks.
+
+---
+
+## How to Add a Creator (via Pull Request)
 
 ### 1. Fork & Clone
 
@@ -18,8 +29,8 @@ Create a folder named with your **creator ID** (lowercase, hyphenated):
 
 ```
 website/assets/creators/{your-id}/
-├── profile.jpg         # Avatar (auto-detected)
-├── cover.png           # Cover image (auto-detected)
+├── profile.jpg         # Avatar (must be named "profile")
+├── my-best-work.png    # Cover (any non-profile image in root → auto cover)
 └── gallery/            # Portfolio images (auto-detected)
     ├── anything.jpg    # ✨ Any filename!
     ├── my-work.png     # ✨ All auto-detected!
@@ -28,7 +39,7 @@ website/assets/creators/{your-id}/
 
 **Naming Convention:**
 - **profile.\*** → Fixed name for avatar
-- **cover.\*** → Fixed name for cover image
+- **Any other image in root** → Automatically becomes the cover (no special name needed)
 - **gallery/\*** → Any filename, **automatically detected!**
 
 **Supported Formats:** `jpg`, `jpeg`, `png`, `webp`, `gif`
@@ -116,7 +127,7 @@ Then open a Pull Request on GitHub.
 ```
 website/assets/creators/jane-doe/
 ├── profile.jpg
-├── cover.png
+├── splat-portrait.png    ← auto cover (any non-profile image in root)
 └── gallery/
     ├── neon-city.jpg
     ├── forest-scan.png

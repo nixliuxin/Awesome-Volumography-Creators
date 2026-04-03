@@ -143,6 +143,12 @@ Contributions are welcome! See **[CONTRIBUTING.md](CONTRIBUTING.md)** for detail
 
 ---
 
+## Disclaimer
+
+All creator images displayed on this site and repository are copyrighted by their respective authors. This directory is compiled from publicly available information. All images are used under **fair use** for non-commercial commentary, introduction, and curation purposes, or with the creator's authorization. If you have any concerns, please [open a removal request](https://github.com/nixliuxin/Awesome-Volumography-Creators/issues/new?title=Removal%20Request&labels=removal) or contact us via [Creative.Tech](https://creative.tech). **We will remove your entry within 48 hours, no questions asked.**
+
+---
+
 <p align="center">
   <sub>All works © their respective creators</sub>
 </p>

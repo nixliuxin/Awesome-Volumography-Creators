@@ -163,6 +163,18 @@
         color: var(--color-text);
     }
 
+    .nav-btn-primary {
+        background: var(--color-accent);
+        border-color: var(--color-accent);
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .nav-btn-primary:hover {
+        background: var(--color-accent-hover);
+        border-color: var(--color-accent-hover);
+    }
+
     /* Expandable button - grows on hover */
     .nav-btn-expand {
         gap: 0;  /* Override default gap */
