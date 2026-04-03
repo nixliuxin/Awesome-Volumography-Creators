@@ -81,29 +81,31 @@ Each card uses a **nested grid structure** internally:
 ### 4.1 Colors
 | Token | Value | Usage |
 |-------|-------|-------|
-| `--color-bg` | `#000000` | Page background |
-| `--color-surface` | `#0a0a0a` | Card background |
-| `--color-surface-hover` | `#111111` | Card hover state |
-| `--color-border` | `#1a1a1a` | All borders, grid gaps |
-| `--color-border-hover` | `#2a2a2a` | Hover border state |
-| `--color-text` | `#ffffff` | Primary text (names) |
-| `--color-text-dim` | `#888888` | Secondary text (specialty) |
-| `--color-text-muted` | `#444444` | Tertiary text (location) |
-| `--color-accent` | `#0052FF` | **Theme color**: links, tags, hashtags |
-| `--color-accent-dim` | `rgba(0, 82, 255, 0.2)` | Tag background |
+| `--color-bg` | `#0a0a0b` | Page background |
+| `--color-surface` | `#111113` | Card, filter bar, footer, buttons |
+| `--color-surface-hover` | `#18181b` | Hover state |
+| `--color-border` | `#222226` | All borders, grid gaps |
+| `--color-border-hover` | `#2a2a2e` | Hover border state |
+| `--color-text` | `#ffffff` | Primary text |
+| `--color-text-secondary` | `#999999` | **Unified** secondary/muted/dim text (one gray) |
+| `--color-text-dim` | same as secondary | Alias |
+| `--color-text-muted` | same as secondary | Alias |
+| `--color-accent` | `#0055ff` | **Theme color**: links, tags, hashtags |
+| `--color-accent-glow` | `rgba(0, 85, 255, 0.5)` | Glow effects |
 
-### 4.2 Typography
-| Element | Font | Weight | Size |
-|---------|------|--------|------|
-| Body | PxGrotesk | 400 | 15px |
-| Card Name | PxGrotesk | 700 | 16px |
-| Card Specialty | PxGrotesk | 400 | 14px |
-| Location | PxGroteskMono | 400 | 13px |
-| Website Link | PxGroteskMono | 400 | 13px |
-| Tags | PxGroteskMono | 400 | 11px |
-| Filter Buttons | PxGroteskMono | 400 | 13px |
-| Filter Labels | PxGroteskMono | 400 | 12px |
-| Avatar Placeholder | PxGrotesk | 700 | 18px |
+### 4.2 Typography – Type scale (site-wide only these sizes)
+| Token | Value | Usage |
+|-------|-------|-------|
+| `--text-xs` | 11px | Tags, labels, filter small, captions |
+| `--text-sm` | 13px | Nav, card meta, filter btn, footer |
+| `--text-base` | 15px | Body default |
+| `--text-md` | 16px | Card name, formula (desktop) |
+| `--text-lg` | 18px | Hero statement (desktop) |
+| `--text-xl` | 24px | Hero title (small) |
+| `--text-2xl` | 32px | Hero title |
+| `--text-3xl` | 48px | Hero title (large) |
+
+Use only these sizes; avoid arbitrary px (e.g. 14→base or sm, 17→md).
 
 ### 4.3 Spacing
 | Token | Value |
@@ -181,9 +183,11 @@ background-size: 24px 24px;
 ## 9. Asset Placeholders
 
 When data is missing:
-- **No cover image**: Show `"No Preview"` text on dark gradient background
-- **No avatar**: Show **first letter of name** (e.g., "N" for "Nix Liu Xin", "S" for "Studio XYZ")
-- **Avatar load error**: Fall back to first letter
+- **No cover image**: 
+  1. First, try to use a random image from `gallery[]`
+  2. If no gallery, show `"No Preview"` placeholder
+- **No avatar**: Don't show avatar overlay (hidden by default)
+- **Has avatar**: Show avatar overlay in bottom-left of cover image
 
 ---
 

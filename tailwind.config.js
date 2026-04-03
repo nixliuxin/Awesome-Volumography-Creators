@@ -18,9 +18,14 @@ module.exports = {
         'mono': ['PxGroteskMono', 'ui-monospace', 'monospace'],
       },
       fontSize: {
-        'xs': ['0.75rem', { lineHeight: '1.5' }],
-        'sm': ['0.875rem', { lineHeight: '1.5' }],
-        'base': ['1rem', { lineHeight: '1.5' }],
+        'xs': ['11px', { lineHeight: '1.5' }],
+        'sm': ['13px', { lineHeight: '1.5' }],
+        'base': ['15px', { lineHeight: '1.5' }],
+        'md': ['16px', { lineHeight: '1.5' }],
+        'lg': ['18px', { lineHeight: '1.5' }],
+        'xl': ['24px', { lineHeight: '1.5' }],
+        '2xl': ['32px', { lineHeight: '1.3' }],
+        '3xl': ['48px', { lineHeight: '1.2' }],
       },
       borderRadius: {
         'md': '8px',

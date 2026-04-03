@@ -1,39 +1,442 @@
 [
   {
+    "id": "arata-fukoe",
+    "name": "Arata Fukoe",
+    "name_origin": "",
+    "title": "Filmmaker, Artist",
+    "subtitle": "",
+    "location": "Japan",
+    "tags": ["4DGS", "3DGS", "Bullet Time", "360 Video"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://www.aratafukoe.com/",
+      "instagram": "https://www.instagram.com/arata_fukoe/?hl=en"
+    }
+  },
+  {
+    "id": "andrew-r-mchugh",
+    "name": "Andrew R McHugh",
+    "name_origin": "",
+    "title": "Designer",
+    "subtitle": "",
+    "location": "San Jose, USA",
+    "tags": ["Volumetric Video"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://andrewrmchugh.rocks/"
+    }
+  },
+  {
+    "id": "benjamin-bardou",
+    "name": "Benjamin Bardou",
+    "name_origin": "",
+    "title": "Filmmaker, Visual Artist",
+    "subtitle": "",
+    "location": "France",
+    "tags": ["3DGS", "Point Cloud", "Cinematic"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://benjaminbardou.com/",
+      "instagram": "https://www.instagram.com/benjaminbardou/"
+    }
+  },
+  {
+    "id": "bertrand-de-becque",
+    "name": "Bertrand de Becque",
+    "name_origin": "",
+    "title": "Independent Artist",
+    "subtitle": "",
+    "location": "France",
+    "tags": ["Point Cloud", "TouchDesigner"],
+    "addedDate": "2026-01-31",
+    "links": {
+      "ct": "",
+      "website": "https://www.b2bk.fr/",
+      "instagram": "https://www.instagram.com/b2bk.fr",
+      "youtube": "https://www.youtube.com/@b2bk"
+    }
+  },
+  {
+    "id": "carlos-navarro",
+    "name": "Carlos Navarro",
+    "name_origin": "",
+    "title": "Architect, Creative Technologist",
+    "subtitle": "",
+    "location": "Los Angeles, USA",
+    "tags": ["3DGS", "AI", "Point Cloud"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://carlosnavarro.io/",
+      "instagram": "https://www.instagram.com/carlosnavarro.cn/",
+      "linkedin": "https://www.linkedin.com/in/carlosnavarro-cn/"
+    }
+  },
+  {
+    "id": "chen-momo",
+    "name": "Chen Momo",
+    "name_origin": "陈墨墨",
+    "title": "Photographer",
+    "subtitle": "",
+    "location": "Shanghai, China",
+    "tags": ["Photogrammetry"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "http://www.chenmomo.com/"
+    }
+  },
+  {
+    "id": "clement-valla",
+    "name": "Clement Valla",
+    "name_origin": "",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "New York, USA",
+    "tags": ["Point Cloud", "Photogrammetry"],
+    "addedDate": "2026-01-31",
+    "links": {
+      "ct": "",
+      "website": "https://clementvalla.com/",
+      "instagram": "https://www.instagram.com/clementvalla/"
+    }
+  },
+  {
+    "id": "coco-linux",
+    "name": "coco linux",
+    "name_origin": "",
+    "title": "Computer Scientist, XR Researcher",
+    "subtitle": "",
+    "location": "New Zealand",
+    "tags": ["3DGS", "4DGS", "VFX", "Point Cloud"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "youtube": "https://www.youtube.com/channel/UCkjtQubhewAQfw18mzR2csQ"
+    }
+  },
+  {
+    "id": "daniel-esco",
+    "name": "Daniel Escobar",
+    "name_origin": "",
+    "title": "Architecture and Computational Designer",
+    "subtitle": "",
+    "location": "",
+    "tags": ["Point Cloud", "AI"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/daniel.esco1/"
+    }
+  },
+  {
+    "id": "eddy-vajarakitipongse",
+    "name": "Eddy Vajarakitipongse",
+    "name_origin": "",
+    "title": "Creative Technologist",
+    "subtitle": "",
+    "location": "Los Angeles, USA",
+    "tags": ["3DGS", "XR"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://yaknowlike.com/"
+    }
+  },
+  {
+    "id": "edmund-fraser",
+    "name": "Edmund Fraser",
+    "name_origin": "",
+    "title": "Photographer, Director",
+    "subtitle": "",
+    "location": "London, UK",
+    "tags": ["3DGS"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://www.edmundfraser.co/",
+      "instagram": "https://www.instagram.com/edmundfraser/"
+    }
+  },
+  {
+    "id": "e-mirascend",
+    "name": "E.Mirascend",
+    "name_origin": "",
+    "title": "Visual Designer, Digital Artist",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["VFX", "Point Cloud"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "website": "https://e-mons.com/all"
+    }
+  },
+  {
+    "id": "frankanlisa",
+    "name": "FrānkǎnLīsà",
+    "name_origin": "Zhang Haotian + Li Tianying",
+    "title": "Researcher",
+    "subtitle": "",
+    "location": "Hong Kong",
+    "tags": ["3DGS", "Photogrammetry"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://www.frankanlisa.com",
+      "instagram": "https://www.instagram.com/frankanlisa/"
+    }
+  },
+  {
+    "id": "frederik-heyman",
+    "name": "Frederik Heyman",
+    "name_origin": "",
+    "title": "Photographer, Artist",
+    "subtitle": "",
+    "location": "Belgium",
+    "tags": ["Photogrammetry", "3D Scan"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://frederikheyman.com/",
+      "instagram": "https://www.instagram.com/frederikheyman/"
+    }
+  },
+  {
+    "id": "hirokazu-yokohara",
+    "name": "Hirokazu Yokohara",
+    "name_origin": "横原 大和",
+    "title": "3D Artist",
+    "subtitle": "",
+    "location": "Japan",
+    "tags": ["3DGS"],
+    "addedDate": "2026-01-31",
+    "links": {
+      "ct": "",
+      "website": "https://www.artstation.com/yokohara"
+    }
+  },
+  {
+    "id": "keijiro-takahashi",
+    "name": "Keijiro Takahashi",
+    "name_origin": "",
+    "title": "Software Engineer",
+    "subtitle": "",
+    "location": "Tokyo, Japan",
+    "tags": ["Unity", "Real-time", "VFX", "TouchDesigner"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://www.keijiro.tokyo/"
+    }
+  },
+  {
+    "id": "mediastorm",
+    "name": "MediaStorm",
+    "name_origin": "影视飓风",
+    "title": "Content Creators",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["3DGS", "4DGS", "Point Cloud", "VFX"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://www.ysjf.com/home",
+      "bilibili": "https://space.bilibili.com/946974",
+      "youtube": "https://www.youtube.com/@mediastorm6801"
+    }
+  },
+  {
     "id": "nix-liu-xin",
     "name": "Nix Liu Xin",
-    "title": "Gaussian Splatting",
-    "subtitle": "Founder of Play.Work Labs",
-    "location": "Shanghai / London",
+    "name_origin": "",
+    "title": "Engineer, Artist",
+    "subtitle": "",
+    "location": "China / USA",
+    "tags": ["3DGS", "VFX", "4DGS", "Photogrammetry"],
+    "addedDate": "2026-01-16",
     "links": {
-      "ct": "https://www.creative.tech/tags/volumography",
-      "website": "https://nixliuxin.com",
-      "twitter": "https://twitter.com/nixliuxin"
-    },
-    "tags": ["4DGS", "Spatial Computing"]
+      "ct": "",
+      "website": "https://liuxin.com",
+      "instagram": "https://www.instagram.com/nixliuxin",
+      "twitter": "https://x.com/nixliuxin",
+      "linkedin": "https://www.linkedin.com/in/nixliuxin/"
+    }
+  },
+  {
+    "id": "oddviz",
+    "name": "oddviz",
+    "name_origin": "",
+    "title": "Art Collective",
+    "subtitle": "",
+    "location": "İstanbul, Turkey",
+    "tags": ["Photogrammetry", "Digital Archive"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://www.oddviz.com/",
+      "instagram": "https://www.instagram.com/oddviz/"
+    }
+  },
+  {
+    "id": "oldmediaart",
+    "name": "OldMediaArt",
+    "name_origin": "旧媒介",
+    "title": "Game Studio",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["Photogrammetry", "Game"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://space.bilibili.com/3546633788721807"
+    }
+  },
+  {
+    "id": "overhead4d",
+    "name": "Overhead4D",
+    "name_origin": "",
+    "title": "Creative Photogrammetry Studio",
+    "subtitle": "",
+    "location": "Kežmarok, Slovakia",
+    "tags": ["3DGS", "Photogrammetry"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://overhead4d.com/",
+      "instagram": "https://www.instagram.com/overhead4d",
+      "linkedin": "https://www.linkedin.com/company/overhead4d/"
+    }
+  },
+  {
+    "id": "reconteur",
+    "name": "RACONTEUR",
+    "name_origin": "",
+    "title": "Production Studio",
+    "subtitle": "",
+    "location": "Ukraine",
+    "tags": ["3DGS"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://www.raconteur.studio/",
+      "instagram": "https://www.instagram.com/raconteur.studio/"
+    }
   },
   {
     "id": "rubenfro",
     "name": "RubenFro",
-    "title": "Volumetric Art",
+    "name_origin": "",
+    "title": "VFX Artist, Director",
     "subtitle": "",
-    "location": "Tokyo",
+    "location": "Tokyo, Japan",
+    "tags": ["VFX", "Point Cloud", "TouchDesigner"],
+    "addedDate": "2026-01-16",
     "links": {
-      "ct": "https://www.creative.tech/tags/volumography",
-      "website": "https://rubenfro.com"
-    },
-    "tags": ["Point Cloud", "VFX"]
+      "ct": "",
+      "website": "https://rubenfro.com/",
+      "instagram": "https://www.instagram.com/rubenfro/"
+    }
   },
   {
-    "id": "eddy-v",
-    "name": "Eddy Vajarakitipongse",
-    "title": "LiDAR / Photogrammetry",
+    "id": "shavonne-wong",
+    "name": "Shavonne Wong",
+    "name_origin": "",
+    "title": "Photographer",
     "subtitle": "",
-    "location": "Bangkok / LA",
+    "location": "Singapore",
+    "tags": ["Photogrammetry", "3D Scan"],
+    "addedDate": "2026-01-16",
     "links": {
-      "ct": "https://www.creative.tech/tags/volumography",
-      "website": "https://eddyv.com"
-    },
-    "tags": ["LiDAR", "Digital Art"]
+      "ct": "",
+      "website": "https://www.shavonnewong.art/"
+    }
+  },
+  {
+    "id": "xinran-wu",
+    "name": "Xinran Wu",
+    "name_origin": "吴欣然",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "Los Angeles, USA",
+    "tags": ["Point Cloud", "Photogrammetry"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/_mentha99/"
+    }
+  },
+  {
+    "id": "yan-xiangning",
+    "name": "Yan Xiangning",
+    "name_origin": "严湘宁 / 海风质检员",
+    "title": "New Media Artist",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["3DGS", "AI", "TouchDesigner"],
+    "addedDate": "2026-01-30",
+    "links": {
+      "ct": "",
+      "xhs": "https://www.xiaohongshu.com/user/profile/6318a2290000000019020a06"
+    }
+  },
+  {
+    "id": "yang-rui",
+    "name": "Yang Rui",
+    "name_origin": "杨睿",
+    "title": "Artist",
+    "subtitle": "",
+    "location": "Shanghai, China",
+    "tags": ["Point Cloud", "Photogrammetry", "3D Scan"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/y.angr/"
+    }
+  },
+  {
+    "id": "yu-hao",
+    "name": "Yu Hao",
+    "name_origin": "尉浩",
+    "title": "3D Artist",
+    "subtitle": "",
+    "location": "China",
+    "tags": ["VFX", "Point Cloud", "AI", "Photogrammetry"],
+    "addedDate": "2026-01-16",
+    "links": {
+      "ct": "",
+      "website": "https://zunyuh.top/"
+    }
+  },
+  {
+    "id": "yulei-he",
+    "name": "Yulei He",
+    "name_origin": "",
+    "title": "Developer",
+    "subtitle": "",
+    "location": "Italy",
+    "tags": ["3DGS"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "website": "https://medium.com/@heyulei"
+    }
+  },
+  {
+    "id": "yunlei-liu",
+    "name": "Yunlei Liu",
+    "name_origin": "",
+    "title": "Cinematic Artist",
+    "subtitle": "",
+    "location": "Los Angeles, USA",
+    "tags": ["3DGS", "AI"],
+    "addedDate": "2026-01-19",
+    "links": {
+      "ct": "",
+      "instagram": "https://www.instagram.com/yunlei.liu.1/?hl=en"
+    }
   }
 ]

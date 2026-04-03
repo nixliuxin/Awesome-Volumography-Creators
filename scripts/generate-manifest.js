@@ -39,7 +39,10 @@ const scanCreatorFolder = (creatorId) => {
     };
 
     // Scan root folder for profile and cover
-    const rootFiles = fs.readdirSync(creatorPath);
+    // Cover rule: any image in root that is NOT profile.* becomes the cover.
+    // If multiple non-profile images exist, first one alphabetically wins.
+    const rootFiles = fs.readdirSync(creatorPath).sort();
+    const coverCandidates = [];
     
     for (const file of rootFiles) {
         const filePath = path.join(creatorPath, file);
@@ -50,10 +53,14 @@ const scanCreatorFolder = (creatorId) => {
             
             if (basename === 'profile') {
                 result.profile = file;
-            } else if (basename === 'cover') {
-                result.cover = file;
+            } else {
+                coverCandidates.push(file);
             }
         }
+    }
+    
+    if (coverCandidates.length > 0) {
+        result.cover = coverCandidates[0];
     }
 
     // Scan gallery folder
