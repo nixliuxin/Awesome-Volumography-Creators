@@ -232,6 +232,22 @@
       "ct": "",
       "website": "https://www.keijiro.tokyo/"
     }
+      },
+      {
+      "id": "kiru-mehari",
+      "name": "Kiru Mehari",
+      "name_origin": "",
+      "title": "Creative Technologist",
+      "subtitle": "",
+      "location": "Montreal, Canada",
+      "tags": ["3DGS", "XR", "Spatial"],
+      "addedDate": "2026-04-04",
+      "links": {
+        "ct": "",
+        "website": "https://spatial-index.xyz",
+        "twitter": "https://twitter.com/verymehari",
+        "arena": "https://www.are.na/kiru"
+      }
   },
   {
     "id": "mediastorm",

@@ -154,6 +154,14 @@
       "maxresdefault.jpg"
     ]
   },
+  "kiru": {
+    "profile": "profile.jpg",
+    "cover": "Memoria.png",
+    "gallery": [
+      "Atlas.png",
+      "Duree.png"
+    ]
+  },
   "mediastorm": {
     "profile": "profile.jpg",
     "cover": "Screenshot 20260403233156.png",
