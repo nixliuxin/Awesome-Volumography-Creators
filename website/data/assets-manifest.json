@@ -156,10 +156,11 @@
   },
   "kiru": {
     "profile": "profile.jpg",
-    "cover": "Memoria.png",
+    "cover": "Memoria_Home.png",
     "gallery": [
       "Atlas.png",
-      "Duree.png"
+      "Duree.png",
+      "Memoria.png"
     ]
   },
   "mediastorm": {
