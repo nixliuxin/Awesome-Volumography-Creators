@@ -25,14 +25,11 @@
   </a>
 </p>
 
-<h1 align="center">Awesome Volumography Creators</h1>
+<h1 align="center">Awesome Gaussian Splatting Artists</h1>
 
 <p align="center">
-  <strong>Volumography</strong> (volumetric + photography) — the art and craft of capturing reality in 3D/4D. The next universal medium after photography and cinema.
-</p>
-
-<p align="center">
-  AVC is curating a list of creators—artists, coders, and researchers pioneering this new medium from around the world.
+  A curated directory of <strong>Gaussian Splatting, NeRF & 3D/4D capture</strong> artists and creators worldwide.<br>
+  Part of the <strong><a href="https://volumography.com">Volumography</a></strong> movement — volumetric + photography — the next universal medium.
 </p>
 
 <p align="center">

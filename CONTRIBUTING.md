@@ -1,4 +1,4 @@
-# Contributing to Awesome Volumography Creators
+# Contributing to Awesome Gaussian Splatting Artists
 
 Thank you for your interest in contributing! 🎉
 
@@ -18,8 +18,8 @@ Thank you for your interest in contributing! 🎉
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Awesome-Volumography-Creators.git
-cd Awesome-Volumography-Creators
+git clone https://github.com/YOUR_USERNAME/Awesome-Gaussian-Splatting-Artists.git
+cd Awesome-Gaussian-Splatting-Artists
 npm install
 ```
 
@@ -162,7 +162,7 @@ This is a **celebratory curation** of artists and researchers pushing the bounda
 **If you prefer not to be listed:**
 
 1. **GitHub Issue** (Recommended)  
-   [Open a removal request](https://github.com/nixliuxin/Awesome-Volumography-Creators/issues/new?title=Removal%20Request:%20[Your%20Name]&labels=removal) with the title "Removal Request: [Your Name]"
+   [Open a removal request](https://github.com/nixliuxin/Awesome-Gaussian-Splatting-Artists/issues/new?title=Removal%20Request:%20[Your%20Name]&labels=removal) with the title "Removal Request: [Your Name]"
 
 2. **Direct Contact**  
    Reach out via [Creative.Tech](https://creative.tech)
